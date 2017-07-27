@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Vimer]]></title>
+  <title><![CDATA[Vimer.Me]]></title>
   <subtitle><![CDATA[基础·极致·分享]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://vimer.me/"/>
-  <updated>2017-07-27T14:28:08.071Z</updated>
+  <updated>2017-07-27T14:37:12.685Z</updated>
   <id>http://vimer.me/</id>
   
   <author>
