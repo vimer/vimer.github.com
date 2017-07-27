@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     
-    <title>Node.js异步回调池, Maximum call stack size exceeded error</title>
+    <title>Node.js异步回调池, Maximum call stack size exceeded error | Vimer.Me</title>
     <meta name="renderer" content="webkit">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -15,28 +15,23 @@
     <meta name="description" content="煮酒编码空望月，疯疯癫癫醉人生">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Node.js异步回调池, Maximum call stack size exceeded error">
+    <meta name="twitter:title" content="Node.js异步回调池, Maximum call stack size exceeded error | Vimer.Me">
     <meta name="twitter:description" content="煮酒编码空望月，疯疯癫癫醉人生">
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Node.js异步回调池, Maximum call stack size exceeded error">
+    <meta property="og:title" content="Node.js异步回调池, Maximum call stack size exceeded error | Vimer.Me">
     <meta property="og:description" content="煮酒编码空望月，疯疯癫癫醉人生">
 
     
     <meta name="author" content="vimer.me">
     
-    <link rel="stylesheet" href="../../../css/hvno.css" type="text/css">
+    <link rel="stylesheet" href="../../../css/vno.css" type="text/css">
 
-    <link rel="stylesheet" href="../../../css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" type="text/css">
 
-    <link rel="stylesheet" href="../../../css/atelier-forest.light.min.css" type="text/css">
 
-	<!--<link href="//cdn.bootcss.com/highlight.js/8.9.0/styles/magula.min.css" rel="stylesheet">-->
-	<!--<link href="//cdn.bootcss.com/highlight.js/8.8.0/styles/idea.min.css" rel="stylesheet">-->
-	<!--<link href="//cdn.bootcss.com/highlight.js/8.7/styles/atelier-forest.light.min.css" rel="stylesheet">-->
-	<!--<link href="//cdn.bootcss.com/highlight.js/8.7/styles/github.min.css" rel="stylesheet">-->
     
-    <link rel="icon" href="/images/favicon.ico">
+    <link rel="icon" href="/images/avatar-small.png">
     
 
     <meta name="generator" content="hexo"/>
@@ -46,20 +41,26 @@
 
     <link rel="canonical" href="http://vimer.me/2015/01/rangeerror-max-call-stack-size-exceeded-error/"/>
 
-    
+                 
 </head>
 
 <body class="home-template no-js">
+    <script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+
+    <script src="../../../js/main.js" type="text/javascript"></script>
+
     <span class="mobile btn-mobile-menu">
         <i class="fa fa-list btn-mobile-menu__icon"></i>
         <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
     </span>
+
     
-<header class="panel-cover panel-cover--collapsed">
+<header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
   <div class="panel-main">
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
-		
+
+        <a href="/" title="前往 Vimer.Me 的主页"><img src="/images/avatar.jpg" width="80" alt="Vimer.Me logo" class="panel-cover__logo logo" /></a>
         <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage for Vimer.Me">Vimer.Me</a></h1>
         
         <span class="panel-cover__subtitle panel-subtitle">基础·极致·分享</span>
@@ -72,11 +73,13 @@
           <div>
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-             <!-- <li class="navigation__item"><a href="/#blog" title="访问博客" class="blog-button">博客</a></li> -->
+              <li class="navigation__item"><a href="/#blog" title="访问博客" class="blog-button">博客</a></li>
             
-              <li class="navigation__item"><a href="/categories/tech">技术栈</a></li>
+              <li class="navigation__item"><a href="/favourite">黄金屋</a></li>
             
-              <li class="navigation__item"><a href="/categories/venture-road/">创业路</a></li>
+              <li class="navigation__item"><a href="/favourite/time.html">时光机</a></li>
+            
+              <li class="navigation__item"><a href="/aboutme">关于我</a></li>
             
             </ul>
           </nav>
@@ -91,7 +94,7 @@
   <!-- Github -->
   
   <li class="navigation__item">
-    <a href="https://github.com/vimer" title="查看我的GitHub主页" target="_blank">
+    <a href="https://github.com/monniya" title="查看我的GitHub主页" target="_blank">
       <i class='social fa fa-github'></i>
       <span class="label">Github</span>
     </a>
@@ -108,6 +111,13 @@
 
   
 <!-- Twitter -->
+
+  <li class="navigation__item">
+    <a href="https://twitter.com/onlymonniya" title="上Twitter找我" target="_blank">
+      <i class='social fa fa-twitter'></i>
+      <span class="label">Twitter</span>
+    </a>
+  </li>
 
   
 
@@ -130,20 +140,27 @@
 
     </div>
 
-    <div class="panel-cover--overlay cover-disabled"></div>
-  </div>
+    <div class="panel-cover--overlay cover-purple"></div>
+  </div> 
 </header>
 
     <div class="content-wrapper">
         <div class="content-wrapper__inner">
-		<article class="post-container post-container--single">
+            <article class="post-container post-container--single">
 
   <header class="post-header">
     <div class="post-meta">
-    <h2 class="post-title post-list__post-title">Node.js异步回调池, Maximum call stack size exceeded error</h2>
-      <time datetime="2015-01-17T08:12:17.000Z" class="post-list__meta--date date">1月17 2015</time>
-	</div>
+      <time datetime="2015-01-17T08:12:17.000Z" class="post-list__meta--date date">1月17 2015</time> &#8226; <span class="post-meta__tags tags">于&nbsp;
+  <a class="-link" href="../../../tags/Node-js">Node.js</a>, <a class="-link" href="../../../tags/异常">异常</a>
+ </span>
+      <span class="page-pv">
+      &nbsp;阅读&nbsp;<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+      </span> 
+   
+    </div>
+    <h1 class="post-title">Node.js异步回调池, Maximum call stack size exceeded error</h1>
   </header>
+
   <section class="post">
     <p>这种错误主要发生在js调用栈的限制,如下面递归调用的代码:</p>
 <pre>
@@ -205,47 +222,77 @@ for (var i=0; i< 100; i++) {
 
 
   </section>
-  <br>
-  <center><font color="#a44a54" size="2px">(转载文章请注明原文出处 <a href='' style="font-color:#496b98" target="_blank" rel="external">Vimer.Me)</a></font></center>
-  <br>
+
 </article>
-<span class="post-meta__tags tags">&nbsp;</span>
-<span class="post-meta__tags tags">
-  <a class="tags-link" href="../../../tags/Node-js">Node.js</a>, <a class="tags-link" href="../../../tags/异常">异常</a>
 
-</span>
+<section class="read-more">
+           
+    
+               
+            <div class="read-more-item">
+                <span class="read-more-item-dim">最近的文章</span>
+                <h2 class="post-list__post-title post-title"><a href="/2015/01/mongodb-map-reduce-increase-speed/" title="MongoDB Map-Reduce 原理及提速">MongoDB Map-Reduce 原理及提速</a></h2>
+                <p class="excerpt">
+                
+                想要优化Map-reduce就要深入理解其原理.
+Map-Reduce基本原理请见下图:
 
-<section class="post-comments">
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-      var disqus_shortname = 'vimer';       
-      /* * * DON'T EDIT BELOW THIS LINE * * */
-      (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                &hellip;
+                </p>
+                <div class="post-list__meta"><time datetime="2015-01-18T04:07:42.000Z" class="post-list__meta--date date">1月18 2015</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
+  <a class="-link" href="../../../tags/Map-Reduce">Map-Reduce</a>, <a class="-link" href="../../../tags/MongoDB">MongoDB</a>
+</span><a class="btn-border-small" href="/2015/01/mongodb-map-reduce-increase-speed/">继续阅读</a></div>
+                           
+            </div>
+        
+        
+               
+            <div class="read-more-item">
+                <span class="read-more-item-dim">更早的文章</span>
+                <h2 class="post-list__post-title post-title"><a href="/2014/12/nodejs-cpu-cal/" title="Node.js和cpu密集型计算">Node.js和cpu密集型计算</a></h2>
+                <p class="excerpt">
+                
+                
+
+setTimeout(function () {
+    for (var i = 0; i 
+
+
+这个小例子很经典的解释了Node.js遇到密集型CPU的时候问题,这个程序分别在两个时间点触发,虽然在210ms得时候回调内得程序执行非常很快,但是在200ms得时候处理了一个CPU非常密集型的任务就导致整个线程阻塞了.
+                &hellip;
+                </p>
+                <div class="post-list__meta"><time datetime="2014-12-27T11:35:46.000Z" class="post-list__meta--date date">12月27 2014</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
+  <a class="-link" href="../../../tags/Node-js">Node.js</a>, <a class="-link" href="../../../tags/cpu密集型计算">cpu密集型计算</a>
+</span><a class="btn-border-small" href="/2014/12/nodejs-cpu-cal/">继续阅读</a></div>
+                       
+            </div>
+        
+     
+   
+   
+  
 </section>
 
+  
 
-
-        <footer class="footer">
+            <footer class="footer">
     <span class="footer__copyright">
-        &copy; 2017 - Vimer.Me
+        本站点采用 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
     </span>
+    <span class="footer__copyright">
+        基于 <a href="http://hexo.io">Hexo</a> 搭建，感谢 <a href="https://pages.github.com/">GitHub Pages</a> 提供免费的托管服务
+    </span>
+    <span class="footer__copyright">
+        &copy; 2017 - 本站使用 <a href="https://github.com/monniya/hexo-theme-new-vno ">new-vno</a> 主题,
+        由<a href="https://monniya.com ">@Monniya</a> 修改自 <a href="https://github.com/lenbo-ma/hexo-theme-vno" target="_blank">Vno</a>, 原创出自<a href="http://github.com/onevcat/vno" target="_blank">onevcat</a>
+    </span>
+    
 </footer>
+
 
         </div>
     </div>
-	<script src="../../../js/jquery.min.js" type="text/javascript"></script>
 
-	<script src="../../../js/main.js" type="text/javascript"></script>
-
-	<script src="../../../js/highlight.min.js" type="text/javascript"></script>
-
-	<script>hljs.initHighlightingOnLoad();</script>
      
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -253,29 +300,25 @@ for (var i=0; i< 100; i++) {
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	ga('create', 'UA-70385904-1', 'auto');
+	ga('create', 'UA-78918255-1', 'auto');
 	ga('send', 'pageview');
 </script>
 
+    
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?9cdad07c755fa23f6aced510c6760e87";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 
+
+
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+    
 </body>
 </html>
-<script type="text/javascript">
-
-function isPC() {
-	var userAgentInfo = navigator.userAgent;
-	console.log(userAgentInfo)
-	var Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"];
-	var flag = true;
-	for (var v = 0; v < Agents.length; v++) {
-		if (userAgentInfo.indexOf(Agents[v]) > 0) {
-			flag = false;
-			break;
-		}
-	}
-	return flag;
-}
-/*if (!isPC()) {
-	document.title = "";
-}*/
-</script>
