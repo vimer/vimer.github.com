@@ -146,6 +146,160 @@
     <ol class="post-list">
     
     <li>
+      <h2 class="post-list__post-title post-title"><a href="/2015/05/dynamic-branch-prediction/" title="link to 动态分支预测">动态分支预测</a></h2>
+        <time datetime="5月10 2015" class="post-list__meta--date date">5月10 2015</time>
+      <p class="excerpt">
+        <p>说起这个话题也挺有意思，上周五我在公司技术分享的时候，在最末提到一个问题: </p>
+<p>为什么排序过的数据在遍历的时候速度更快 ?</p>
+<p>这里我拿出很久之前在Stack Overflow上火车在行驶的过程中的例子</p>
+
+      </p>
+      <div class="post-list__meta">
+		<a class="btn-border-small" href="/2015/05/dynamic-branch-prediction/">阅读全文</a>
+        <span class="post-list__meta--tags tags">
+		 <!-- 
+            <a class="categories-link" href="">技术</a>
+          
+			  -->
+			<!-- <a class="category-link" href="/categories/[object Object]" style="">[object Object]</a> -->
+
+		 
+          	
+            <a class="tags-link" href="../../tags/cpu">cpu</a>, <a class="tags-link" href="../../tags/性能">性能</a>
+          	
+		  
+        </span>
+      </div>
+      <hr class="post-list__divider" />
+    </li>
+    
+    <li>
+      <h2 class="post-list__post-title post-title"><a href="/2015/01/mongodb-map-reduce-increase-speed/" title="link to MongoDB Map-Reduce 原理及提速">MongoDB Map-Reduce 原理及提速</a></h2>
+        <time datetime="1月18 2015" class="post-list__meta--date date">1月18 2015</time>
+      <p class="excerpt">
+        <p>想要优化Map-reduce就要深入理解其原理.</p>
+<p>Map-Reduce基本原理请见下图:</p>
+
+      </p>
+      <div class="post-list__meta">
+		<a class="btn-border-small" href="/2015/01/mongodb-map-reduce-increase-speed/">阅读全文</a>
+        <span class="post-list__meta--tags tags">
+		 <!-- 
+            <a class="categories-link" href="">技术</a>
+          
+			  -->
+			<!-- <a class="category-link" href="/categories/[object Object]" style="">[object Object]</a> -->
+
+		 
+          	
+            <a class="tags-link" href="../../tags/Map-Reduce">Map-Reduce</a>, <a class="tags-link" href="../../tags/MongoDB">MongoDB</a>
+          	
+		  
+        </span>
+      </div>
+      <hr class="post-list__divider" />
+    </li>
+    
+    <li>
+      <h2 class="post-list__post-title post-title"><a href="/2015/01/rangeerror-max-call-stack-size-exceeded-error/" title="link to Node.js异步回调池, Maximum call stack size exceeded error">Node.js异步回调池, Maximum call stack size exceeded error</a></h2>
+        <time datetime="1月17 2015" class="post-list__meta--date date">1月17 2015</time>
+      <p class="excerpt">
+        <p>这种错误主要发生在js调用栈的限制,如下面递归调用的代码:</p>
+<pre>
+<code class="javascript">
+(function a() {
+    a();
+})();
+</code>
+</pre>
+
+<p>但是在Node.js中除了因为调用栈限制导致这种错误,还会因为异步回调的池满了导致这个问题,正常来说每个异步函数调用的回调函数,基本都是由事件触发回调的,这些事件触发器存在于一个地方,异步回调完成后,这个内存才会被回收.<br>
+      </p>
+      <div class="post-list__meta">
+		<a class="btn-border-small" href="/2015/01/rangeerror-max-call-stack-size-exceeded-error/">阅读全文</a>
+        <span class="post-list__meta--tags tags">
+		 <!-- 
+            <a class="categories-link" href="">技术</a>
+          
+			  -->
+			<!-- <a class="category-link" href="/categories/[object Object]" style="">[object Object]</a> -->
+
+		 
+          	
+            <a class="tags-link" href="../../tags/Node-js">Node.js</a>, <a class="tags-link" href="../../tags/异常">异常</a>
+          	
+		  
+        </span>
+      </div>
+      <hr class="post-list__divider" />
+    </li>
+    
+    <li>
+      <h2 class="post-list__post-title post-title"><a href="/2014/12/nodejs-cpu-cal/" title="link to Node.js和cpu密集型计算">Node.js和cpu密集型计算</a></h2>
+        <time datetime="12月27 2014" class="post-list__meta--date date">12月27 2014</time>
+      <p class="excerpt">
+        <pre>
+<code class="javascript">
+setTimeout(function () {
+    for (var i = 0; i < 10000000000; i++) {
+        //CPU密集
+    }
+}, 200);
+
+setTimeout(function () {
+    console.log('210 ms...');
+}, 210);
+</code>
+</pre>
+
+<p>这个小例子很经典的解释了Node.js遇到密集型CPU的时候问题,这个程序分别在两个时间点触发,虽然在210ms得时候回调内得程序执行非常很快,但是在200ms得时候处理了一个CPU非常密集型的任务就导致整个线程阻塞了.<br>
+      </p>
+      <div class="post-list__meta">
+		<a class="btn-border-small" href="/2014/12/nodejs-cpu-cal/">阅读全文</a>
+        <span class="post-list__meta--tags tags">
+		 <!-- 
+            <a class="categories-link" href="">技术</a>
+          
+			  -->
+			<!-- <a class="category-link" href="/categories/[object Object]" style="">[object Object]</a> -->
+
+		 
+          	
+            <a class="tags-link" href="../../tags/Node-js">Node.js</a>, <a class="tags-link" href="../../tags/cpu密集型计算">cpu密集型计算</a>
+          	
+		  
+        </span>
+      </div>
+      <hr class="post-list__divider" />
+    </li>
+    
+    <li>
+      <h2 class="post-list__post-title post-title"><a href="/2014/12/nohup-sighup/" title="link to nohup和SIGHUP信号">nohup和SIGHUP信号</a></h2>
+        <time datetime="12月26 2014" class="post-list__meta--date date">12月26 2014</time>
+      <p class="excerpt">
+        <p>为什么这篇文章会提到nohup呢,主要还是最近在使用了一个叫maptail东西,它可以根据nginx的日志中IP来把IP和具体地址进行转换并显示在中国地图上.这样可以实时的查看接口的调用情况.</p>
+
+      </p>
+      <div class="post-list__meta">
+		<a class="btn-border-small" href="/2014/12/nohup-sighup/">阅读全文</a>
+        <span class="post-list__meta--tags tags">
+		 <!-- 
+            <a class="categories-link" href="">技术</a>
+          
+			  -->
+			<!-- <a class="category-link" href="/categories/[object Object]" style="">[object Object]</a> -->
+
+		 
+          	
+            <a class="tags-link" href="../../tags/SIGHUP">SIGHUP</a>, <a class="tags-link" href="../../tags/nohup">nohup</a>
+          	
+		  
+        </span>
+      </div>
+      <hr class="post-list__divider" />
+    </li>
+    
+    <li>
       <h2 class="post-list__post-title post-title"><a href="/2014/12/howto-nodejs-atom-op-mongodb/" title="link to Node.js原子性操作MongoDB">Node.js原子性操作MongoDB</a></h2>
         <time datetime="12月21 2014" class="post-list__meta--date date">12月21 2014</time>
       <p class="excerpt">
@@ -220,6 +374,48 @@ void function(const char* _str) {
 		 
           	
             <a class="tags-link" href="../../tags/C">C</a>, <a class="tags-link" href="../../tags/字符串">字符串</a>
+          	
+		  
+        </span>
+      </div>
+      <hr class="post-list__divider" />
+    </li>
+    
+    <li>
+      <h2 class="post-list__post-title post-title"><a href="/2012/07/mongodb-basic-indexes-compound-indexes/" title="link to MONGODB的BASIC INDEXES 和 COMPOUND INDEXES 研究">MONGODB的BASIC INDEXES 和 COMPOUND INDEXES 研究</a></h2>
+        <time datetime="7月12 2012" class="post-list__meta--date date">7月12 2012</time>
+      <p class="excerpt">
+        <p>前几天看到一个关于 MongoDB 深入索引的PPT</p>
+<p><a href="http://www.slideshare.net/mongodb/mongodb-indexing-the-details" target="_blank" rel="external">MongoDB Indexing: The Details</a></p>
+<p>仔细的从头看到尾, 里面有个关于Compound Indexes的Range and Equality的讲解,在ppt第129页,重新回顾下这个例子.向一个collection中插入 9 条数据,像下面这样:</p>
+<pre>
+<code class="javascript">
+> db.good.find()
+{ "_id" : ObjectId("4e8d629d8ad8bdf2ed6c1990"), "x" : 1, "y" : "b" }
+{ "_id" : ObjectId("4e8d62a38ad8bdf2ed6c1991"), "x" : 3, "y" : "d" }
+{ "_id" : ObjectId("4e8d62ad8ad8bdf2ed6c1992"), "x" : 4, "y" : "g" }
+{ "_id" : ObjectId("4e8d62b28ad8bdf2ed6c1993"), "x" : 5, "y" : "c" }
+{ "_id" : ObjectId("4e8d62ba8ad8bdf2ed6c1994"), "x" : 6, "y" : "a" }
+{ "_id" : ObjectId("4e8d62c18ad8bdf2ed6c1995"), "x" : 7, "y" : "e" }
+{ "_id" : ObjectId("4e8d62ce8ad8bdf2ed6c1996"), "x" : 8, "y" : "c" }
+{ "_id" : ObjectId("4e8d62d38ad8bdf2ed6c1997"), "x" : 9, "y" : "f" }
+{ "_id" : ObjectId("4e8d719a6cee6416a5a75a43"), "x" : 5, "y" : "d" }
+</code>
+</pre>
+
+      </p>
+      <div class="post-list__meta">
+		<a class="btn-border-small" href="/2012/07/mongodb-basic-indexes-compound-indexes/">阅读全文</a>
+        <span class="post-list__meta--tags tags">
+		 <!-- 
+            <a class="categories-link" href="">技术</a>
+          
+			  -->
+			<!-- <a class="category-link" href="/categories/[object Object]" style="">[object Object]</a> -->
+
+		 
+          	
+            <a class="tags-link" href="../../tags/MongoDB">MongoDB</a>, <a class="tags-link" href="../../tags/索引">索引</a>
           	
 		  
         </span>

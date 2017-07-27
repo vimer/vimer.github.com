@@ -4,7 +4,7 @@
   <subtitle><![CDATA[基础·极致·分享]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://vimer.me/"/>
-  <updated>2017-07-27T11:04:23.496Z</updated>
+  <updated>2017-07-27T11:10:27.724Z</updated>
   <id>http://vimer.me/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://vimer.me/2016/02/startup-9-2015-this-year/"/>
     <id>http://vimer.me/2016/02/startup-9-2015-this-year/</id>
     <published>2016-02-03T13:30:00.000Z</published>
-    <updated>2017-07-27T10:46:39.000Z</updated>
+    <updated>2017-07-27T11:08:28.000Z</updated>
     <content type="html"><![CDATA[<p>2015年4月5日一口气读完《创业时，我们在知乎聊什么》，其中一段话是这样的：</p>
 <p>“脸谱网很受早期用户欢迎，但他并不知道这个事情有多么重要。他到硅谷后还一度说脸谱网这个项目并不重要，想靠脸谱网吸引一些用户来，真正想干的事是做一个下载软件。后来是肖恩·帕克(Sean Parker)告诉马克别去干其他东西，干这个就对了。</p>
 <p>校内网当年在清华大学电子系学生节晚会前后几天之间，吸引了四五千名实名注册的用户，但是学生节晚会之后又不怎么增长了。在这之后我们也出现过摇摆，在想是不是要干另外一个项目。</p>
@@ -120,7 +120,7 @@
     <link href="http://vimer.me/2016/01/startup-8-everyone-should-read-insights-from-inside-google/"/>
     <id>http://vimer.me/2016/01/startup-8-everyone-should-read-insights-from-inside-google/</id>
     <published>2016-01-23T15:50:33.000Z</published>
-    <updated>2016-12-26T12:57:08.000Z</updated>
+    <updated>2017-07-27T11:08:24.000Z</updated>
     <content type="html"><![CDATA[<p>这本书看似是给公司的团队leader看的，其实内容对于每一位工作的人都是受益的，我想这本书标题应该改为《重新定义自己在工作中的角色》 更为合适。</p>
 <p>下面一些对我感触比较深的摘要，希望也能触动正在读本文的你，哪怕是一句。</p>
 <blockquote>
@@ -186,7 +186,7 @@
     
       <category term="读书笔记" scheme="http://vimer.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="创业路" scheme="http://vimer.me/categories/%E5%88%9B%E4%B8%9A%E8%B7%AF/"/>
     
   </entry>
   
@@ -195,7 +195,7 @@
     <link href="http://vimer.me/2016/01/startup-7-good-things-never-come-easy/"/>
     <id>http://vimer.me/2016/01/startup-7-good-things-never-come-easy/</id>
     <published>2016-01-05T14:03:37.000Z</published>
-    <updated>2016-12-26T12:57:08.000Z</updated>
+    <updated>2017-07-27T11:08:15.000Z</updated>
     <content type="html"><![CDATA[<p>当天晚上回来的路上，我和天一 一起等公交时，闲聊，“今年年会在一月底，时间过的真快，这也是你和我在多棱镜参加的第二个年会了”， “嗯”， 我问他，“对于15年，你试着用一句话或者几个字来总结下”，他略微停顿了下说：“现实还是和想象的不一样”，我笑着说：“不就是现实很残酷嘛”，他又略微停顿了下说：“以前认为技术上进步应该可以很快，但是现实发现不是这样”。我明白其义：“其实任何事情，任何领域，在你踏入的过程中总是很漫长的，且很艰难的，但是某一天某一刻你会突然发现自己领悟了很多，那一刻就是你成长的时候，然后进入下一个过程循环，过程总是漫长的，所以大部分人都处于这个过程中，就会出现 放弃 这个词，所谓好事多磨就是这个道理。”</p>
 <p>这让我想起元旦前黑老三在微信群转发了任正非的一篇文章，让公司每一个成员都写一篇读后感时，我当时看了下标题，就没再打开，而是继续忙着手头上的事情，别误会，我并不是想说这篇文章表明的意思我不赞同，相反，正是因为我是对“傻”这个字理解不是处于字面上，而是已经践行多年。基于我和黑老三作战一年多时间的磨合，我相信这点互相了解的默契还是有的。本不想写这文，后来看了叫兽写得那篇长文，肺腑之言，有几点共鸣的地方，但是点太多，比较发散，尤其我和天一对话后，我想基于自己的经验和对任正非所说的“傻”，来谈谈我的理解。</p>
 <a id="more"></a>
@@ -214,7 +214,7 @@
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="创业路" scheme="http://vimer.me/categories/%E5%88%9B%E4%B8%9A%E8%B7%AF/"/>
     
   </entry>
   
@@ -223,7 +223,7 @@
     <link href="http://vimer.me/2015/10/startup-6-inappropriate-is-inappropriate/"/>
     <id>http://vimer.me/2015/10/startup-6-inappropriate-is-inappropriate/</id>
     <published>2015-10-18T16:35:05.000Z</published>
-    <updated>2016-12-26T12:57:08.000Z</updated>
+    <updated>2017-07-27T11:08:00.000Z</updated>
     <content type="html"><![CDATA[<p>10.14号，周四，劝退了一位并肩了3个月的兄弟。这位兄弟做了一手好菜，人也不错，和团队成员相处融洽，但是在试用过程中发现和公司的职位要求有点距离，可能他在其他地方会有更好的发展，为了不耽误双方，就让去寻找更好的得方发展了。在劝退的那天，他租得隔间房被政府抢拆了，还记得那晚他发的朋友圈：”福无双至祸不单行~抬头的一片天，是男儿的一片天，是追梦的少年。 “，加油。</p>
 <h3 id="辞职和辞退">辞职和辞退</h3>
 <p>“不好意思，跟你提件事，我想离职…” ，我们很多人都是经历这个过程的，大部分都跳槽过很多公司，如果有下家，感觉跳槽是件很轻松的事，根本很少不考虑目前公司感受。从心理学角度分析：感觉提出离职是个很光荣的事（谁让你不器重我，此处不留爷，自有留爷处…）。</p>
@@ -248,7 +248,7 @@
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="创业路" scheme="http://vimer.me/categories/%E5%88%9B%E4%B8%9A%E8%B7%AF/"/>
     
   </entry>
   
@@ -257,7 +257,7 @@
     <link href="http://vimer.me/2015/09/startup-5-Done-is-better-than-perfect/"/>
     <id>http://vimer.me/2015/09/startup-5-Done-is-better-than-perfect/</id>
     <published>2015-09-14T12:24:54.000Z</published>
-    <updated>2016-12-26T12:57:08.000Z</updated>
+    <updated>2017-07-27T11:07:51.000Z</updated>
     <content type="html"><![CDATA[<p>一直想写疯狂创业路的第五篇，却总是被各种琐事闯入，其实创业也就是这样，生活不可能是有条不紊的。</p>
 <p>听着《Better man》整理这段时间的思绪… 12号早上为第一次参加上海国际马拉松进行了一次16KM的长跑训练，希望对自己的韧性、耐性进行一次挑战。</p>
 <h3 id="团队">团队</h3>
@@ -312,7 +312,7 @@
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="创业路" scheme="http://vimer.me/categories/%E5%88%9B%E4%B8%9A%E8%B7%AF/"/>
     
   </entry>
   
@@ -321,7 +321,7 @@
     <link href="http://vimer.me/2015/05/startup-4-Iron-barracks-water-the-soldiers/"/>
     <id>http://vimer.me/2015/05/startup-4-Iron-barracks-water-the-soldiers/</id>
     <published>2015-05-30T14:54:42.000Z</published>
-    <updated>2016-12-26T12:57:08.000Z</updated>
+    <updated>2017-07-27T11:07:42.000Z</updated>
     <content type="html"><![CDATA[<p>最近对这句话”铁打的营盘，流水的兵”理解越来越深刻，并不是因为这句话本身有多难理解，而是理解的角度会随着你正在做的事情越趋深刻。</p>
 <h3 id="浮躁的现状">浮躁的现状</h3>
 <p>公司人员流动一直很频繁，这应该不是只有我遇到的问题，大部分公司都会遇到，我有很多朋友也在创业，招不到人，应该说招不到合适靠谱的人，员工频繁流动，各种抱怨。但这又能怪谁，当大面积出现类似问题时，是应该反思是否是公司的问题了。公司的事我会娓娓道来，除了公司问题，还有很多其他现象，这里我先不扯远，我就说下我真实看到的现状。</p>
@@ -351,7 +351,7 @@
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="创业路" scheme="http://vimer.me/categories/%E5%88%9B%E4%B8%9A%E8%B7%AF/"/>
     
   </entry>
   
@@ -360,7 +360,7 @@
     <link href="http://vimer.me/2015/05/dynamic-branch-prediction/"/>
     <id>http://vimer.me/2015/05/dynamic-branch-prediction/</id>
     <published>2015-05-10T04:24:29.000Z</published>
-    <updated>2017-07-27T10:13:07.000Z</updated>
+    <updated>2017-07-27T11:05:30.000Z</updated>
     <content type="html"><![CDATA[<p>说起这个话题也挺有意思，上周五我在公司技术分享的时候，在最末提到一个问题: </p>
 <p>为什么排序过的数据在遍历的时候速度更快 ?</p>
 <p>这里我拿出很久之前在Stack Overflow上火车在行驶的过程中的例子</p>
@@ -425,7 +425,7 @@ int main()
     
       <category term="性能" scheme="http://vimer.me/tags/%E6%80%A7%E8%83%BD/"/>
     
-      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
+      <category term="技术" scheme="http://vimer.me/categories/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -434,7 +434,7 @@ int main()
     <link href="http://vimer.me/2015/04/startup-3-from-fast-furious-Look-team/"/>
     <id>http://vimer.me/2015/04/startup-3-from-fast-furious-Look-team/</id>
     <published>2015-04-19T15:24:04.000Z</published>
-    <updated>2016-12-26T12:57:08.000Z</updated>
+    <updated>2017-07-27T11:07:30.000Z</updated>
     <content type="html"><![CDATA[<p>今晚是第二遍看速7，不仅被剧情吸引，更被这样的团队所吸引， 或许是因为看到团队成员中自己的影子。</p>
 <p>近期一直在忙着招聘的事，说实话，这真是个非常花精力的事情，而且你必须投入进去，因为没人会帮你去做，况且别人认为合适的，自己却不一定觉得他合适. 因为你们之间看到的点和面都可能不一样, 我看重的是他的综合能力如何，潜力，是否在团队中起个重要的角色等，别人看到的是可能是经验如何，性价比是否高…<br><a id="more"></a><br>继续先说说招聘的这个事：<br>首先，不能因为自己非常忙而不去浏览简历，等被面试的人过来才发现简历上的不合适。这个对双方都是非常浪费时间的。这个浏览简历一定要着重自己找人标准去浏览. 所以创始人的价值观非常重要. 用自己的价值观招的人，肯定也会是类似的.  (这里插一句: 加入创业公司，一定要和老板好好聊聊，如果他的价值观和你不对路，不要加入.) </p>
 <p>其次，虽说招聘渠道能招到非常满意的基本上在10%的概率以下，但在你还没有更好的渠道之前，这个必须坚持去做，有些人的确是可遇不可求，不要认为牛人不会去投简历什么的， 我见过自己身边很多朋友，由于没有伯乐发现，但是自己个人性格问题，还是会去投简历到企业，这种人可能会在面试的过程中才能去发现他牛逼的地方. </p>
@@ -458,7 +458,7 @@ int main()
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="创业路" scheme="http://vimer.me/categories/%E5%88%9B%E4%B8%9A%E8%B7%AF/"/>
     
   </entry>
   
@@ -467,7 +467,7 @@ int main()
     <link href="http://vimer.me/2015/04/startup-2-14year-shuxin-failed/"/>
     <id>http://vimer.me/2015/04/startup-2-14year-shuxin-failed/</id>
     <published>2015-04-11T05:52:48.000Z</published>
-    <updated>2016-12-26T12:57:08.000Z</updated>
+    <updated>2017-07-27T11:07:20.000Z</updated>
     <content type="html"><![CDATA[<p>14年7月份左右，一个叫“围住神经猫”的H5的游戏在微信刷屏…此后, 这种传播方式被认为是’性价比最高’的方式.</p>
 <p>14年末的时候，也就是情人节和新年快到的时候，我们也是脑袋一拍，制作个新年手写送祝福如何 ? 几个人稍微讨论下，我就开始写了，一个人大概断断续续花了两周时间(创业就是这样, 期间还有其他事情，永远不可能纯粹)， 最后上线的时候通宵了两晚，终于上线了.<br><a id="more"></a></p>
 <p><img src="http://ww2.sinaimg.cn/large/744e593bgw1er1ku109xkj20hs0vkdhb.jpg" width="50%" height="80%"><br><img src="http://ww4.sinaimg.cn/large/744e593bgw1er1ktduayoj20hs0vktaq.jpg" width="50%" height="80%"><br><img src="http://ww2.sinaimg.cn/large/744e593bgw1er1lapv0cdj20hs0vk0vx.jpg" width="50%" height="80%"></p>
@@ -490,7 +490,7 @@ int main()
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="创业路" scheme="http://vimer.me/categories/%E5%88%9B%E4%B8%9A%E8%B7%AF/"/>
     
   </entry>
   
@@ -499,7 +499,7 @@ int main()
     <link href="http://vimer.me/2015/03/startup-1-24pi-tearm-will-be-great/"/>
     <id>http://vimer.me/2015/03/startup-1-24pi-tearm-will-be-great/</id>
     <published>2015-03-08T06:34:48.000Z</published>
-    <updated>2017-07-27T06:22:24.000Z</updated>
+    <updated>2017-07-27T11:07:10.000Z</updated>
     <content type="html"><![CDATA[<p>直接从大三的创业项目过渡目前这个创业, 来的的确有点快, 本来想一一娓娓道来，但24pi这个产品牵动着核心成员及几十万粉丝的心，请允许我写个总结. 之前的创业产品和项目一些靠谱经验会慢慢补上.</p>
 <h3 id="一、产品">一、产品</h3>
 <p>####1.需求分析<br>首先24pi在需求分析上做的不好，那时就是一个idea，飘飘洒洒发散了一下，就抗几把枪开始干了. 导致后来走了一段弯路, 还好发现的时候开发的周期不长, 变道比较快，如果已经开发了很长一段时间了，那么成本就上去了。 所以需求分析必须重视  !</p>
@@ -557,7 +557,7 @@ int main()
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="创业路" scheme="http://vimer.me/categories/%E5%88%9B%E4%B8%9A%E8%B7%AF/"/>
     
   </entry>
   
@@ -566,7 +566,7 @@ int main()
     <link href="http://vimer.me/2015/01/mongodb-map-reduce-increase-speed/"/>
     <id>http://vimer.me/2015/01/mongodb-map-reduce-increase-speed/</id>
     <published>2015-01-18T04:07:42.000Z</published>
-    <updated>2016-12-26T12:57:08.000Z</updated>
+    <updated>2017-07-27T11:06:05.000Z</updated>
     <content type="html"><![CDATA[<p>想要优化Map-reduce就要深入理解其原理.</p>
 <p>Map-Reduce基本原理请见下图:</p>
 <a id="more"></a>
@@ -680,7 +680,7 @@ var reduce = function(key, values) {
     
       <category term="MongoDB" scheme="http://vimer.me/tags/MongoDB/"/>
     
-      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
+      <category term="技术" scheme="http://vimer.me/categories/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -689,7 +689,7 @@ var reduce = function(key, values) {
     <link href="http://vimer.me/2015/01/rangeerror-max-call-stack-size-exceeded-error/"/>
     <id>http://vimer.me/2015/01/rangeerror-max-call-stack-size-exceeded-error/</id>
     <published>2015-01-17T08:12:17.000Z</published>
-    <updated>2016-12-26T12:57:08.000Z</updated>
+    <updated>2017-07-27T11:06:52.000Z</updated>
     <content type="html"><![CDATA[<p>这种错误主要发生在js调用栈的限制,如下面递归调用的代码:</p>
 <pre>
 <code class="javascript">
@@ -767,7 +767,7 @@ for (var i=0; i< 100; i++) {
     
       <category term="异常" scheme="http://vimer.me/tags/%E5%BC%82%E5%B8%B8/"/>
     
-      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
+      <category term="技术" scheme="http://vimer.me/categories/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -776,7 +776,7 @@ for (var i=0; i< 100; i++) {
     <link href="http://vimer.me/2014/12/nodejs-cpu-cal/"/>
     <id>http://vimer.me/2014/12/nodejs-cpu-cal/</id>
     <published>2014-12-27T11:35:46.000Z</published>
-    <updated>2016-12-26T12:57:08.000Z</updated>
+    <updated>2017-07-27T11:06:15.000Z</updated>
     <content type="html"><![CDATA[<pre>
 <code class="javascript">
 setTimeout(function () {
@@ -907,7 +907,7 @@ setTimeout(function () {
     
       <category term="cpu密集型计算" scheme="http://vimer.me/tags/cpu%E5%AF%86%E9%9B%86%E5%9E%8B%E8%AE%A1%E7%AE%97/"/>
     
-      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
+      <category term="技术" scheme="http://vimer.me/categories/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -916,7 +916,7 @@ setTimeout(function () {
     <link href="http://vimer.me/2014/12/nohup-sighup/"/>
     <id>http://vimer.me/2014/12/nohup-sighup/</id>
     <published>2014-12-26T03:30:46.000Z</published>
-    <updated>2016-12-26T12:57:08.000Z</updated>
+    <updated>2017-07-27T11:06:24.000Z</updated>
     <content type="html"><![CDATA[<p>为什么这篇文章会提到nohup呢,主要还是最近在使用了一个叫maptail东西,它可以根据nginx的日志中IP来把IP和具体地址进行转换并显示在中国地图上.这样可以实时的查看接口的调用情况.</p>
 <a id="more"></a>
 <p><img src="http://ww3.sinaimg.cn/large/744e593bgw1enmxnoxfulj20kk0fr41o.jpg" alt="24pi_maptail"></p>
@@ -965,7 +965,7 @@ nohup tail -f 2 &
     
       <category term="SIGHUP" scheme="http://vimer.me/tags/SIGHUP/"/>
     
-      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
+      <category term="技术" scheme="http://vimer.me/categories/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -974,7 +974,7 @@ nohup tail -f 2 &
     <link href="http://vimer.me/2014/12/howto-nodejs-atom-op-mongodb/"/>
     <id>http://vimer.me/2014/12/howto-nodejs-atom-op-mongodb/</id>
     <published>2014-12-21T12:47:06.000Z</published>
-    <updated>2017-07-27T11:01:57.000Z</updated>
+    <updated>2017-07-27T11:05:34.000Z</updated>
     <content type="html"><![CDATA[<p>假设基础数据为:</p>
 <pre>
 <code class="javascript">
@@ -1074,7 +1074,7 @@ co(function* () {
     <link href="http://vimer.me/2012/07/c-string-question/"/>
     <id>http://vimer.me/2012/07/c-string-question/</id>
     <published>2012-07-19T14:27:45.000Z</published>
-    <updated>2017-07-27T11:02:06.000Z</updated>
+    <updated>2017-07-27T11:05:21.000Z</updated>
     <content type="html"><![CDATA[<p>一个同事在Project中写下如下错误代码(为了说明问题, 代码已经简写)</p>
 <pre>
 <code class="C">
@@ -1188,7 +1188,7 @@ void function(const char* _str) {
     <link href="http://vimer.me/2012/07/mongodb-basic-indexes-compound-indexes/"/>
     <id>http://vimer.me/2012/07/mongodb-basic-indexes-compound-indexes/</id>
     <published>2012-07-11T17:18:41.000Z</published>
-    <updated>2016-12-26T12:57:08.000Z</updated>
+    <updated>2017-07-27T11:05:46.000Z</updated>
     <content type="html"><![CDATA[<p>前几天看到一个关于 MongoDB 深入索引的PPT</p>
 <p><a href="http://www.slideshare.net/mongodb/mongodb-indexing-the-details" target="_blank" rel="external">MongoDB Indexing: The Details</a></p>
 <p>仔细的从头看到尾, 里面有个关于Compound Indexes的Range and Equality的讲解,在ppt第129页,重新回顾下这个例子.向一个collection中插入 9 条数据,像下面这样:</p>
@@ -1318,7 +1318,7 @@ db.good.ensureIndex({y:1})
     
       <category term="索引" scheme="http://vimer.me/tags/%E7%B4%A2%E5%BC%95/"/>
     
-      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
+      <category term="技术" scheme="http://vimer.me/categories/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
