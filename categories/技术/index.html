@@ -139,50 +139,42 @@
 		
 
 
-  <h1 class="archive-title">原子性</h1>
-  <hr class="post-list__divider" />
+  <!--<h3 class="archive-title">技术</h3>
+  <hr class="post-list__divider" />-->
 
 <div class="main-post-list">
     <ol class="post-list">
     
     <li>
-      <h2 class="post-list__post-title post-title"><a href="/2014/12/howto-nodejs-atom-op-mongodb/" title="link to Node.js原子性操作MongoDB">Node.js原子性操作MongoDB</a></h2>
-        <time datetime="12月21 2014" class="post-list__meta--date date">12月21 2014</time>
+      <h2 class="post-list__post-title post-title"><a href="/2012/07/c-string-question/" title="link to 由 C 中字符串比较引入的问题">由 C 中字符串比较引入的问题</a></h2>
+        <time datetime="7月19 2012" class="post-list__meta--date date">7月19 2012</time>
       <p class="excerpt">
-        <p>假设基础数据为:</p>
+        <p>一个同事在Project中写下如下错误代码(为了说明问题, 代码已经简写)</p>
 <pre>
-<code class="javascript">
-{
-    "name" : "cb",
-    "data" : 0,
+<code class="C">
+void function(const char* _str) {
+    if (_str == "OK") {
+
+    }
 }
 </code>
 </pre>
 
-<p>有时候为了充分利用多核,会同时开启多个node进程,但是若部分代码若涉及到操作mongodb就会有下面现象.<br>“理想情况下”,多个进程执行完后得数据为:</p>
-<pre>
-<code class="javascript">
-{
-    "name" : "cb",
-    "data" : 6000,
-}
-</code>
-</pre>
+<p>这段代码 错就错在把char*(从堆里分配的)字符串直接 常量字符串进行比较.<br>而这位同事不解的拿出下面这个例子对我发出这样的疑问:为什么会这样?</p>
 
-<p>其实不然 !<br>
       </p>
       <div class="post-list__meta">
-		<a class="btn-border-small" href="/2014/12/howto-nodejs-atom-op-mongodb/">阅读全文</a>
+		<a class="btn-border-small" href="/2012/07/c-string-question/">阅读全文</a>
         <span class="post-list__meta--tags tags">
 		 <!-- 
-			  <a class="category-link" href="/categories/tech" style="">技术</a>
-		  
+            <a class="categories-link" href="">技术</a>
+          
 			  -->
 			<a class="category-link" href="/categories/" style=""></a>
 
 		 
           	
-            <a class="tags-link" href="../MongoDB">MongoDB</a>, <a class="tags-link" href="../Node-js">Node.js</a>, <a class="tags-link" href="">原子性</a>
+            <a class="tags-link" href="../../tags/C">C</a>, <a class="tags-link" href="../../tags/字符串">字符串</a>
           	
 		  
         </span>
