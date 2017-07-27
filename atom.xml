@@ -4,7 +4,7 @@
   <subtitle><![CDATA[基础·极致·分享]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://vimer.me/"/>
-  <updated>2017-07-27T10:46:26.574Z</updated>
+  <updated>2017-07-27T10:52:53.755Z</updated>
   <id>http://vimer.me/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://vimer.me/2016/02/startup-9-2015-this-year/"/>
     <id>http://vimer.me/2016/02/startup-9-2015-this-year/</id>
     <published>2016-02-03T13:30:00.000Z</published>
-    <updated>2017-07-27T10:46:02.000Z</updated>
+    <updated>2017-07-27T10:46:39.000Z</updated>
     <content type="html"><![CDATA[<p>2015年4月5日一口气读完《创业时，我们在知乎聊什么》，其中一段话是这样的：</p>
 <p>“脸谱网很受早期用户欢迎，但他并不知道这个事情有多么重要。他到硅谷后还一度说脸谱网这个项目并不重要，想靠脸谱网吸引一些用户来，真正想干的事是做一个下载软件。后来是肖恩·帕克(Sean Parker)告诉马克别去干其他东西，干这个就对了。</p>
 <p>校内网当年在清华大学电子系学生节晚会前后几天之间，吸引了四五千名实名注册的用户，但是学生节晚会之后又不怎么增长了。在这之后我们也出现过摇摆，在想是不是要干另外一个项目。</p>
@@ -186,7 +186,7 @@
     
       <category term="读书笔记" scheme="http://vimer.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
     
   </entry>
   
@@ -214,7 +214,7 @@
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
     
   </entry>
   
@@ -248,7 +248,7 @@
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
     
   </entry>
   
@@ -312,7 +312,7 @@
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
     
   </entry>
   
@@ -351,7 +351,7 @@
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
     
   </entry>
   
@@ -425,7 +425,7 @@ int main()
     
       <category term="性能" scheme="http://vimer.me/tags/%E6%80%A7%E8%83%BD/"/>
     
-      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
+      <category term="tech" scheme="http://vimer.me/category/tech/"/>
     
   </entry>
   
@@ -458,7 +458,7 @@ int main()
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
     
   </entry>
   
@@ -490,7 +490,7 @@ int main()
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
     
   </entry>
   
@@ -557,7 +557,7 @@ int main()
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
     
   </entry>
   
@@ -680,7 +680,7 @@ var reduce = function(key, values) {
     
       <category term="MongoDB" scheme="http://vimer.me/tags/MongoDB/"/>
     
-      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
+      <category term="tech" scheme="http://vimer.me/category/tech/"/>
     
   </entry>
   
@@ -767,7 +767,7 @@ for (var i=0; i< 100; i++) {
     
       <category term="异常" scheme="http://vimer.me/tags/%E5%BC%82%E5%B8%B8/"/>
     
-      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
+      <category term="tech" scheme="http://vimer.me/category/tech/"/>
     
   </entry>
   
@@ -907,7 +907,7 @@ setTimeout(function () {
     
       <category term="cpu密集型计算" scheme="http://vimer.me/tags/cpu%E5%AF%86%E9%9B%86%E5%9E%8B%E8%AE%A1%E7%AE%97/"/>
     
-      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
+      <category term="tech" scheme="http://vimer.me/category/tech/"/>
     
   </entry>
   
@@ -965,7 +965,7 @@ nohup tail -f 2 &
     
       <category term="SIGHUP" scheme="http://vimer.me/tags/SIGHUP/"/>
     
-      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
+      <category term="tech" scheme="http://vimer.me/category/tech/"/>
     
   </entry>
   
@@ -1065,7 +1065,7 @@ co(function* () {
     
       <category term="原子性" scheme="http://vimer.me/tags/%E5%8E%9F%E5%AD%90%E6%80%A7/"/>
     
-      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
+      <category term="tech" scheme="http://vimer.me/category/tech/"/>
     
   </entry>
   
@@ -1316,7 +1316,7 @@ db.good.ensureIndex({y:1})
     
       <category term="索引" scheme="http://vimer.me/tags/%E7%B4%A2%E5%BC%95/"/>
     
-      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
+      <category term="tech" scheme="http://vimer.me/category/tech/"/>
     
   </entry>
   
