@@ -19,12 +19,12 @@
 
     
   <url>
-    <loc>http://vimer.me/2015/09/startup-5-Done-is-better-than-perfect/</loc>
+    <loc>http://vimer.me/2015/10/startup-6-inappropriate-is-inappropriate/</loc>
     <lastmod>2016-12-26T12:57:08.000Z</lastmod>
     <data>
         <display>
-        <title>创业路「五」：Done is better than perfect</title>
-        <pubTime>2015-09-14T12:24:54.000Z</pubTime>
+        <title>创业路「六」：不合适就是不合适</title>
+        <pubTime>2015-10-18T16:35:05.000Z</pubTime>
         
          
               <breadCrumb title="venture-road" url="http://vimer.me/categories/venture-road/"/>
@@ -57,17 +57,17 @@
 
     
   <url>
-    <loc>http://vimer.me/2015/01/mongodb-map-reduce-increase-speed/</loc>
+    <loc>http://vimer.me/2015/05/dynamic-branch-prediction/</loc>
     <lastmod>2016-12-26T12:57:08.000Z</lastmod>
     <data>
         <display>
-        <title>MongoDB Map-Reduce 原理及提速</title>
-        <pubTime>2015-01-18T04:07:42.000Z</pubTime>
+        <title>动态分支预测</title>
+        <pubTime>2015-05-10T04:24:29.000Z</pubTime>
         
          
-              <breadCrumb title="Map-Reduce" url="http://vimer.me/tags/Map-Reduce/"/>
+              <breadCrumb title="cpu" url="http://vimer.me/tags/cpu/"/>
           
-              <breadCrumb title="MongoDB" url="http://vimer.me/tags/MongoDB/"/>
+              <breadCrumb title="性能" url="http://vimer.me/tags/%E6%80%A7%E8%83%BD/"/>
           
               <breadCrumb title="tech" url="http://vimer.me/categories/tech/"/>
           
@@ -117,6 +117,26 @@
 
     
   <url>
+    <loc>http://vimer.me/2014/12/nodejs-cpu-cal/</loc>
+    <lastmod>2016-12-26T12:57:08.000Z</lastmod>
+    <data>
+        <display>
+        <title>Node.js和cpu密集型计算</title>
+        <pubTime>2014-12-27T11:35:46.000Z</pubTime>
+        
+         
+              <breadCrumb title="Node.js" url="http://vimer.me/tags/Node-js/"/>
+          
+              <breadCrumb title="cpu密集型计算" url="http://vimer.me/tags/cpu%E5%AF%86%E9%9B%86%E5%9E%8B%E8%AE%A1%E7%AE%97/"/>
+          
+              <breadCrumb title="tech" url="http://vimer.me/categories/tech/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://vimer.me/2014/12/nohup-sighup/</loc>
     <lastmod>2016-12-26T12:57:08.000Z</lastmod>
     <data>
@@ -137,19 +157,15 @@
 
     
   <url>
-    <loc>http://vimer.me/2014/12/nodejs-cpu-cal/</loc>
+    <loc>http://vimer.me/2015/04/startup-2-14year-shuxin-failed/</loc>
     <lastmod>2016-12-26T12:57:08.000Z</lastmod>
     <data>
         <display>
-        <title>Node.js和cpu密集型计算</title>
-        <pubTime>2014-12-27T11:35:46.000Z</pubTime>
+        <title>创业路「二」：14年末微传播失败--手写字祝福贺卡(书心)</title>
+        <pubTime>2015-04-11T05:52:48.000Z</pubTime>
         
          
-              <breadCrumb title="Node.js" url="http://vimer.me/tags/Node-js/"/>
-          
-              <breadCrumb title="cpu密集型计算" url="http://vimer.me/tags/cpu%E5%AF%86%E9%9B%86%E5%9E%8B%E8%AE%A1%E7%AE%97/"/>
-          
-              <breadCrumb title="tech" url="http://vimer.me/categories/tech/"/>
+              <breadCrumb title="venture-road" url="http://vimer.me/categories/venture-road/"/>
           
         </display>
     </data>
@@ -177,6 +193,42 @@
 
     
   <url>
+    <loc>http://vimer.me/2015/01/mongodb-map-reduce-increase-speed/</loc>
+    <lastmod>2016-12-26T12:57:08.000Z</lastmod>
+    <data>
+        <display>
+        <title>MongoDB Map-Reduce 原理及提速</title>
+        <pubTime>2015-01-18T04:07:42.000Z</pubTime>
+        
+         
+              <breadCrumb title="Map-Reduce" url="http://vimer.me/tags/Map-Reduce/"/>
+          
+              <breadCrumb title="MongoDB" url="http://vimer.me/tags/MongoDB/"/>
+          
+              <breadCrumb title="tech" url="http://vimer.me/categories/tech/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://vimer.me/2015/09/startup-5-Done-is-better-than-perfect/</loc>
+    <lastmod>2016-12-26T12:57:08.000Z</lastmod>
+    <data>
+        <display>
+        <title>创业路「五」：Done is better than perfect</title>
+        <pubTime>2015-09-14T12:24:54.000Z</pubTime>
+        
+         
+              <breadCrumb title="venture-road" url="http://vimer.me/categories/venture-road/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://vimer.me/2015/05/startup-4-Iron-barracks-water-the-soldiers/</loc>
     <lastmod>2016-12-26T12:57:08.000Z</lastmod>
     <data>
@@ -193,64 +245,12 @@
 
     
   <url>
-    <loc>http://vimer.me/2015/05/dynamic-branch-prediction/</loc>
-    <lastmod>2016-12-26T12:57:08.000Z</lastmod>
-    <data>
-        <display>
-        <title>动态分支预测</title>
-        <pubTime>2015-05-10T04:24:29.000Z</pubTime>
-        
-         
-              <breadCrumb title="cpu" url="http://vimer.me/tags/cpu/"/>
-          
-              <breadCrumb title="性能" url="http://vimer.me/tags/%E6%80%A7%E8%83%BD/"/>
-          
-              <breadCrumb title="tech" url="http://vimer.me/categories/tech/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://vimer.me/2015/04/startup-3-from-fast-furious-Look-team/</loc>
     <lastmod>2016-12-26T12:57:08.000Z</lastmod>
     <data>
         <display>
         <title>创业路「三」：从"速度与激情"看团队</title>
         <pubTime>2015-04-19T15:24:04.000Z</pubTime>
-        
-         
-              <breadCrumb title="venture-road" url="http://vimer.me/categories/venture-road/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://vimer.me/2015/04/startup-2-14year-shuxin-failed/</loc>
-    <lastmod>2016-12-26T12:57:08.000Z</lastmod>
-    <data>
-        <display>
-        <title>创业路「二」：14年末微传播失败--手写字祝福贺卡(书心)</title>
-        <pubTime>2015-04-11T05:52:48.000Z</pubTime>
-        
-         
-              <breadCrumb title="venture-road" url="http://vimer.me/categories/venture-road/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://vimer.me/2015/10/startup-6-inappropriate-is-inappropriate/</loc>
-    <lastmod>2016-12-26T12:57:08.000Z</lastmod>
-    <data>
-        <display>
-        <title>创业路「六」：不合适就是不合适</title>
-        <pubTime>2015-10-18T16:35:05.000Z</pubTime>
         
          
               <breadCrumb title="venture-road" url="http://vimer.me/categories/venture-road/"/>
