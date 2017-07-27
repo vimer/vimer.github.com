@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://vimer.me/2012/07/c-string-question/</loc>
+    <lastmod>2017-07-27T10:15:30.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vimer.me/2015/05/dynamic-branch-prediction/</loc>
+    <lastmod>2017-07-27T10:13:07.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://vimer.me/2015/03/startup-1-24pi-tearm-will-be-great/</loc>
     <lastmod>2017-07-27T06:22:24.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://vimer.me/2015/04/startup-3-from-fast-furious-Look-team/</loc>
-    <lastmod>2016-12-26T12:57:08.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://vimer.me/2012/07/mongodb-basic-indexes-compound-indexes/</loc>
-    <lastmod>2016-12-26T12:57:08.000Z</lastmod>
   </url>
   
   <url>
@@ -47,12 +47,12 @@
   </url>
   
   <url>
-    <loc>http://vimer.me/2012/07/c-string-question/</loc>
+    <loc>http://vimer.me/geeks/index.html</loc>
     <lastmod>2016-12-26T12:57:08.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://vimer.me/2015/05/dynamic-branch-prediction/</loc>
+    <loc>http://vimer.me/2012/07/mongodb-basic-indexes-compound-indexes/</loc>
     <lastmod>2016-12-26T12:57:08.000Z</lastmod>
   </url>
   
@@ -97,7 +97,7 @@
   </url>
   
   <url>
-    <loc>http://vimer.me/geeks/index.html</loc>
+    <loc>http://vimer.me/2015/04/startup-3-from-fast-furious-Look-team/</loc>
     <lastmod>2016-12-26T12:57:08.000Z</lastmod>
   </url>
   
