@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     
-    <title>Vimer.Me | 基础·极致·分享</title>
+    <title>Vimer.Me</title>
     <meta name="renderer" content="webkit">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -15,23 +15,28 @@
     <meta name="description" content="煮酒编码空望月，疯疯癫癫醉人生">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Vimer.Me | 基础·极致·分享">
+    <meta name="twitter:title" content="Vimer.Me">
     <meta name="twitter:description" content="煮酒编码空望月，疯疯癫癫醉人生">
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Vimer.Me | 基础·极致·分享">
+    <meta property="og:title" content="Vimer.Me">
     <meta property="og:description" content="煮酒编码空望月，疯疯癫癫醉人生">
 
     
     <meta name="author" content="vimer.me">
     
-    <link rel="stylesheet" href="../../css/vno.css" type="text/css">
+    <link rel="stylesheet" href="../../css/hvno.css" type="text/css">
 
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css" type="text/css">
 
+    <link rel="stylesheet" href="../../css/atelier-forest.light.min.css" type="text/css">
 
+	<!--<link href="//cdn.bootcss.com/highlight.js/8.9.0/styles/magula.min.css" rel="stylesheet">-->
+	<!--<link href="//cdn.bootcss.com/highlight.js/8.8.0/styles/idea.min.css" rel="stylesheet">-->
+	<!--<link href="//cdn.bootcss.com/highlight.js/8.7/styles/atelier-forest.light.min.css" rel="stylesheet">-->
+	<!--<link href="//cdn.bootcss.com/highlight.js/8.7/styles/github.min.css" rel="stylesheet">-->
     
-    <link rel="icon" href="/images/avatar-small.png">
+    <link rel="icon" href="/images/favicon.ico">
     
 
     <meta name="generator" content="hexo"/>
@@ -41,26 +46,20 @@
 
     <link rel="canonical" href="http://vimer.me"/>
 
-                 
+    
 </head>
 
 <body class="home-template no-js">
-    <script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
-
-    <script src="../../js/main.js" type="text/javascript"></script>
-
     <span class="mobile btn-mobile-menu">
         <i class="fa fa-list btn-mobile-menu__icon"></i>
         <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
     </span>
-
     
-<header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+<header class="panel-cover panel-cover--collapsed">
   <div class="panel-main">
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
-
-        <a href="/" title="前往 Vimer.Me 的主页"><img src="/images/avatar.jpg" width="80" alt="Vimer.Me logo" class="panel-cover__logo logo" /></a>
+		
         <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage for Vimer.Me">Vimer.Me</a></h1>
         
         <span class="panel-cover__subtitle panel-subtitle">基础·极致·分享</span>
@@ -73,13 +72,11 @@
           <div>
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-              <li class="navigation__item"><a href="/#blog" title="访问博客" class="blog-button">博客</a></li>
+             <!-- <li class="navigation__item"><a href="/#blog" title="访问博客" class="blog-button">博客</a></li> -->
             
-              <li class="navigation__item"><a href="/favourite">黄金屋</a></li>
+              <li class="navigation__item"><a href="/categories/tech">技术栈</a></li>
             
-              <li class="navigation__item"><a href="/favourite/time.html">时光机</a></li>
-            
-              <li class="navigation__item"><a href="/aboutme">关于我</a></li>
+              <li class="navigation__item"><a href="/categories/venture-road/">创业路</a></li>
             
             </ul>
           </nav>
@@ -94,7 +91,7 @@
   <!-- Github -->
   
   <li class="navigation__item">
-    <a href="https://github.com/monniya" title="查看我的GitHub主页" target="_blank">
+    <a href="https://github.com/vimer" title="查看我的GitHub主页" target="_blank">
       <i class='social fa fa-github'></i>
       <span class="label">Github</span>
     </a>
@@ -111,13 +108,6 @@
 
   
 <!-- Twitter -->
-
-  <li class="navigation__item">
-    <a href="https://twitter.com/onlymonniya" title="上Twitter找我" target="_blank">
-      <i class='social fa fa-twitter'></i>
-      <span class="label">Twitter</span>
-    </a>
-  </li>
 
   
 
@@ -140,136 +130,162 @@
 
     </div>
 
-    <div class="panel-cover--overlay cover-purple"></div>
-  </div> 
+    <div class="panel-cover--overlay cover-disabled"></div>
+  </div>
 </header>
 
     <div class="content-wrapper">
         <div class="content-wrapper__inner">
-            <div class="main-post-list">
-    
-  <ol class="post-list">
-  
+		
+
+
+  <h1 class="archive-title">Node.js</h1>
+  <hr class="post-list__divider" />
+
+<div class="main-post-list">
+    <ol class="post-list">
     
     <li>
-      <h2 class="post-list__post-title post-title"><a href="/2015/01/rangeerror-max-call-stack-size-exceeded-error/" title="link to post.title">Node.js异步回调池, Maximum call stack size exceeded error</a></h2>
+      <h2 class="post-list__post-title post-title"><a href="/2015/01/rangeerror-max-call-stack-size-exceeded-error/" title="link to Node.js异步回调池, Maximum call stack size exceeded error">Node.js异步回调池, Maximum call stack size exceeded error</a></h2>
+        <time datetime="1月17 2015" class="post-list__meta--date date">1月17 2015</time>
       <p class="excerpt">
-    
-      这种错误主要发生在js调用栈的限制,如下面递归调用的代码:
-
-
+        <p>这种错误主要发生在js调用栈的限制,如下面递归调用的代码:</p>
+<pre>
+<code class="javascript">
 (function a() {
     a();
 })();
+</code>
+</pre>
 
-
-
-但是在Node.js中除了因为调用栈限制导致这种错误,还会因为异步回调的池满了导致这个问题,正常来说每个异步函数调用的回调函数,基本都是由事件触发回调的,这些事件触发器存在于一个地方,异步回调完成后,这个内存才会被回收.
-    &hellip;
+<p>但是在Node.js中除了因为调用栈限制导致这种错误,还会因为异步回调的池满了导致这个问题,正常来说每个异步函数调用的回调函数,基本都是由事件触发回调的,这些事件触发器存在于一个地方,异步回调完成后,这个内存才会被回收.<br>
       </p>
-      <div class="post-list__meta"><time datetime="2015-01-17T08:12:17.000Z" class="post-list__meta--date date">1月17 2015</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
-  <a class="-link" href="">Node.js</a>, <a class="-link" href="../异常">异常</a>
-</span><a class="btn-border-small" href="/2015/01/rangeerror-max-call-stack-size-exceeded-error/">继续阅读</a></div>
+      <div class="post-list__meta">
+		<a class="btn-border-small" href="/2015/01/rangeerror-max-call-stack-size-exceeded-error/">阅读全文</a>
+        <span class="post-list__meta--tags tags">
+		 
+			  <a class="category-link" href="/categories/tech" style="">技术</a>
+		  
+
+		 
+          	
+            <a class="tags-link" href="">Node.js</a>, <a class="tags-link" href="../异常">异常</a>
+          	
+		  
+        </span>
+      </div>
       <hr class="post-list__divider" />
     </li>
-  
     
     <li>
-      <h2 class="post-list__post-title post-title"><a href="/2014/12/nodejs-cpu-cal/" title="link to post.title">Node.js和cpu密集型计算</a></h2>
+      <h2 class="post-list__post-title post-title"><a href="/2014/12/nodejs-cpu-cal/" title="link to Node.js和cpu密集型计算">Node.js和cpu密集型计算</a></h2>
+        <time datetime="12月27 2014" class="post-list__meta--date date">12月27 2014</time>
       <p class="excerpt">
-    
-      
+        <pre>
+<code class="javascript">
+setTimeout(function () {
+    for (var i = 0; i < 10000000000; i++) {
+        //CPU密集
+    }
+}, 200);
 
 setTimeout(function () {
-    for (var i = 0; i 
+    console.log('210 ms...');
+}, 210);
+</code>
+</pre>
 
-
-这个小例子很经典的解释了Node.js遇到密集型CPU的时候问题,这个程序分别在两个时间点触发,虽然在210ms得时候回调内得程序执行非常很快,但是在200ms得时候处理了一个CPU非常密集型的任务就导致整个线程阻塞了.
-    &hellip;
+<p>这个小例子很经典的解释了Node.js遇到密集型CPU的时候问题,这个程序分别在两个时间点触发,虽然在210ms得时候回调内得程序执行非常很快,但是在200ms得时候处理了一个CPU非常密集型的任务就导致整个线程阻塞了.<br>
       </p>
-      <div class="post-list__meta"><time datetime="2014-12-27T11:35:46.000Z" class="post-list__meta--date date">12月27 2014</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
-  <a class="-link" href="">Node.js</a>, <a class="-link" href="../cpu密集型计算">cpu密集型计算</a>
-</span><a class="btn-border-small" href="/2014/12/nodejs-cpu-cal/">继续阅读</a></div>
+      <div class="post-list__meta">
+		<a class="btn-border-small" href="/2014/12/nodejs-cpu-cal/">阅读全文</a>
+        <span class="post-list__meta--tags tags">
+		 
+			  <a class="category-link" href="/categories/tech" style="">技术</a>
+		  
+
+		 
+          	
+            <a class="tags-link" href="">Node.js</a>, <a class="tags-link" href="../cpu密集型计算">cpu密集型计算</a>
+          	
+		  
+        </span>
+      </div>
       <hr class="post-list__divider" />
     </li>
-  
     
     <li>
-      <h2 class="post-list__post-title post-title"><a href="/2014/12/howto-nodejs-atom-op-mongodb/" title="link to post.title">Node.js原子性操作MongoDB</a></h2>
+      <h2 class="post-list__post-title post-title"><a href="/2014/12/howto-nodejs-atom-op-mongodb/" title="link to Node.js原子性操作MongoDB">Node.js原子性操作MongoDB</a></h2>
+        <time datetime="12月21 2014" class="post-list__meta--date date">12月21 2014</time>
       <p class="excerpt">
-    
-      假设基础数据为:
-
-
+        <p>假设基础数据为:</p>
+<pre>
+<code class="javascript">
 {
-    &quot;name&quot; : &quot;cb&quot;,
-    &quot;data&quot; : 0,
+    "name" : "cb",
+    "data" : 0,
 }
+</code>
+</pre>
 
-
-
-有时候为了充分利用多核,会同时开启多个node进程,但是若部分代码若涉及到操作mongodb就会有下面现象.“理想情况下”,多个进程执行完后得数据为:
-
-
+<p>有时候为了充分利用多核,会同时开启多个node进程,但是若部分代码若涉及到操作mongodb就会有下面现象.<br>“理想情况下”,多个进程执行完后得数据为:</p>
+<pre>
+<code class="javascript">
 {
-    &quot;name&quot; : &quot;cb&quot;,
-    &quot;data&quot; : 6000,
+    "name" : "cb",
+    "data" : 6000,
 }
+</code>
+</pre>
 
-
-
-其实不然 !
-    &hellip;
+<p>其实不然 !<br>
       </p>
-      <div class="post-list__meta"><time datetime="2014-12-21T12:47:06.000Z" class="post-list__meta--date date">12月21 2014</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
-  <a class="-link" href="../MongoDB">MongoDB</a>, <a class="-link" href="">Node.js</a>, <a class="-link" href="../原子性">原子性</a>
-</span><a class="btn-border-small" href="/2014/12/howto-nodejs-atom-op-mongodb/">继续阅读</a></div>
+      <div class="post-list__meta">
+		<a class="btn-border-small" href="/2014/12/howto-nodejs-atom-op-mongodb/">阅读全文</a>
+        <span class="post-list__meta--tags tags">
+		 
+			  <a class="category-link" href="/categories/tech" style="">技术</a>
+		  
+
+		 
+          	
+            <a class="tags-link" href="../MongoDB">MongoDB</a>, <a class="tags-link" href="">Node.js</a>, <a class="tags-link" href="../原子性">原子性</a>
+          	
+		  
+        </span>
+      </div>
       <hr class="post-list__divider" />
     </li>
-  
     
   </ol>
+  <hr class="post-list__divider " />
 
-
- <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
-        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
-        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
-        messageStyle: "none"
-    }); 
+<nav class="pagination" role="navigation">
     
-</script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+
+    <span class="pagination__page-number">Page 1 of 1</span>
+    
+    
+</nav>
+
 </div>
 
 
-            <footer class="footer">
+        <footer class="footer">
     <span class="footer__copyright">
-        本站点采用 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
+        &copy; 2017 - Vimer.Me
     </span>
-    <span class="footer__copyright">
-        基于 <a href="http://hexo.io">Hexo</a> 搭建，感谢 <a href="https://pages.github.com/">GitHub Pages</a> 提供免费的托管服务
-    </span>
-    <span class="footer__copyright">
-        &copy; 2017 - 本站使用 <a href="https://github.com/monniya/hexo-theme-new-vno ">new-vno</a> 主题,
-        由<a href="https://monniya.com ">@Monniya</a> 修改自 <a href="https://github.com/lenbo-ma/hexo-theme-vno" target="_blank">Vno</a>, 原创出自<a href="http://github.com/onevcat/vno" target="_blank">onevcat</a>
-    </span>
-    
 </footer>
-
 
         </div>
     </div>
+	<script src="../../js/jquery.min.js" type="text/javascript"></script>
 
+	<script src="../../js/main.js" type="text/javascript"></script>
+
+	<script src="../../js/highlight.min.js" type="text/javascript"></script>
+
+	<script>hljs.initHighlightingOnLoad();</script>
      
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -277,25 +293,29 @@ setTimeout(function () {
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	ga('create', 'UA-78918255-1', 'auto');
+	ga('create', 'UA-70385904-1', 'auto');
 	ga('send', 'pageview');
 </script>
 
-    
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "//hm.baidu.com/hm.js?9cdad07c755fa23f6aced510c6760e87";
-            var s = document.getElementsByTagName("script")[0]; 
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
 
-
-
-    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    
-    
 </body>
 </html>
+<script type="text/javascript">
+
+function isPC() {
+	var userAgentInfo = navigator.userAgent;
+	console.log(userAgentInfo)
+	var Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"];
+	var flag = true;
+	for (var v = 0; v < Agents.length; v++) {
+		if (userAgentInfo.indexOf(Agents[v]) > 0) {
+			flag = false;
+			break;
+		}
+	}
+	return flag;
+}
+/*if (!isPC()) {
+	document.title = "";
+}*/
+</script>

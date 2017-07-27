@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     
-    <title>Vimer.Me | 基础·极致·分享</title>
+    <title>Vimer.Me</title>
     <meta name="renderer" content="webkit">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -15,23 +15,28 @@
     <meta name="description" content="煮酒编码空望月，疯疯癫癫醉人生">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Vimer.Me | 基础·极致·分享">
+    <meta name="twitter:title" content="Vimer.Me">
     <meta name="twitter:description" content="煮酒编码空望月，疯疯癫癫醉人生">
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Vimer.Me | 基础·极致·分享">
+    <meta property="og:title" content="Vimer.Me">
     <meta property="og:description" content="煮酒编码空望月，疯疯癫癫醉人生">
 
     
     <meta name="author" content="vimer.me">
     
-    <link rel="stylesheet" href="../../css/vno.css" type="text/css">
+    <link rel="stylesheet" href="../../css/hvno.css" type="text/css">
 
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css" type="text/css">
 
+    <link rel="stylesheet" href="../../css/atelier-forest.light.min.css" type="text/css">
 
+	<!--<link href="//cdn.bootcss.com/highlight.js/8.9.0/styles/magula.min.css" rel="stylesheet">-->
+	<!--<link href="//cdn.bootcss.com/highlight.js/8.8.0/styles/idea.min.css" rel="stylesheet">-->
+	<!--<link href="//cdn.bootcss.com/highlight.js/8.7/styles/atelier-forest.light.min.css" rel="stylesheet">-->
+	<!--<link href="//cdn.bootcss.com/highlight.js/8.7/styles/github.min.css" rel="stylesheet">-->
     
-    <link rel="icon" href="/images/avatar-small.png">
+    <link rel="icon" href="/images/favicon.ico">
     
 
     <meta name="generator" content="hexo"/>
@@ -41,26 +46,20 @@
 
     <link rel="canonical" href="http://vimer.me"/>
 
-                 
+    
 </head>
 
 <body class="home-template no-js">
-    <script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
-
-    <script src="../../js/main.js" type="text/javascript"></script>
-
     <span class="mobile btn-mobile-menu">
         <i class="fa fa-list btn-mobile-menu__icon"></i>
         <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
     </span>
-
     
-<header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+<header class="panel-cover panel-cover--collapsed">
   <div class="panel-main">
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
-
-        <a href="/" title="前往 Vimer.Me 的主页"><img src="/images/avatar.jpg" width="80" alt="Vimer.Me logo" class="panel-cover__logo logo" /></a>
+		
         <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage for Vimer.Me">Vimer.Me</a></h1>
         
         <span class="panel-cover__subtitle panel-subtitle">基础·极致·分享</span>
@@ -73,13 +72,11 @@
           <div>
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-              <li class="navigation__item"><a href="/#blog" title="访问博客" class="blog-button">博客</a></li>
+             <!-- <li class="navigation__item"><a href="/#blog" title="访问博客" class="blog-button">博客</a></li> -->
             
-              <li class="navigation__item"><a href="/favourite">黄金屋</a></li>
+              <li class="navigation__item"><a href="/categories/tech">技术栈</a></li>
             
-              <li class="navigation__item"><a href="/favourite/time.html">时光机</a></li>
-            
-              <li class="navigation__item"><a href="/aboutme">关于我</a></li>
+              <li class="navigation__item"><a href="/categories/venture-road/">创业路</a></li>
             
             </ul>
           </nav>
@@ -94,7 +91,7 @@
   <!-- Github -->
   
   <li class="navigation__item">
-    <a href="https://github.com/monniya" title="查看我的GitHub主页" target="_blank">
+    <a href="https://github.com/vimer" title="查看我的GitHub主页" target="_blank">
       <i class='social fa fa-github'></i>
       <span class="label">Github</span>
     </a>
@@ -111,13 +108,6 @@
 
   
 <!-- Twitter -->
-
-  <li class="navigation__item">
-    <a href="https://twitter.com/onlymonniya" title="上Twitter找我" target="_blank">
-      <i class='social fa fa-twitter'></i>
-      <span class="label">Twitter</span>
-    </a>
-  </li>
 
   
 
@@ -140,140 +130,158 @@
 
     </div>
 
-    <div class="panel-cover--overlay cover-purple"></div>
-  </div> 
+    <div class="panel-cover--overlay cover-disabled"></div>
+  </div>
 </header>
 
     <div class="content-wrapper">
         <div class="content-wrapper__inner">
-            <div class="main-post-list">
-    
-  <ol class="post-list">
-  
+		
+
+
+  <h1 class="archive-title">MongoDB</h1>
+  <hr class="post-list__divider" />
+
+<div class="main-post-list">
+    <ol class="post-list">
     
     <li>
-      <h2 class="post-list__post-title post-title"><a href="/2015/01/mongodb-map-reduce-increase-speed/" title="link to post.title">MongoDB Map-Reduce 原理及提速</a></h2>
+      <h2 class="post-list__post-title post-title"><a href="/2015/01/mongodb-map-reduce-increase-speed/" title="link to MongoDB Map-Reduce 原理及提速">MongoDB Map-Reduce 原理及提速</a></h2>
+        <time datetime="1月18 2015" class="post-list__meta--date date">1月18 2015</time>
       <p class="excerpt">
-    
-      想要优化Map-reduce就要深入理解其原理.
-Map-Reduce基本原理请见下图:
+        <p>想要优化Map-reduce就要深入理解其原理.</p>
+<p>Map-Reduce基本原理请见下图:</p>
 
-    &hellip;
       </p>
-      <div class="post-list__meta"><time datetime="2015-01-18T04:07:42.000Z" class="post-list__meta--date date">1月18 2015</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
-  <a class="-link" href="../Map-Reduce">Map-Reduce</a>, <a class="-link" href="">MongoDB</a>
-</span><a class="btn-border-small" href="/2015/01/mongodb-map-reduce-increase-speed/">继续阅读</a></div>
+      <div class="post-list__meta">
+		<a class="btn-border-small" href="/2015/01/mongodb-map-reduce-increase-speed/">阅读全文</a>
+        <span class="post-list__meta--tags tags">
+		 
+			  <a class="category-link" href="/categories/tech" style="">技术</a>
+		  
+
+		 
+          	
+            <a class="tags-link" href="../Map-Reduce">Map-Reduce</a>, <a class="tags-link" href="">MongoDB</a>
+          	
+		  
+        </span>
+      </div>
       <hr class="post-list__divider" />
     </li>
-  
     
     <li>
-      <h2 class="post-list__post-title post-title"><a href="/2014/12/howto-nodejs-atom-op-mongodb/" title="link to post.title">Node.js原子性操作MongoDB</a></h2>
+      <h2 class="post-list__post-title post-title"><a href="/2014/12/howto-nodejs-atom-op-mongodb/" title="link to Node.js原子性操作MongoDB">Node.js原子性操作MongoDB</a></h2>
+        <time datetime="12月21 2014" class="post-list__meta--date date">12月21 2014</time>
       <p class="excerpt">
-    
-      假设基础数据为:
-
-
+        <p>假设基础数据为:</p>
+<pre>
+<code class="javascript">
 {
-    &quot;name&quot; : &quot;cb&quot;,
-    &quot;data&quot; : 0,
+    "name" : "cb",
+    "data" : 0,
 }
+</code>
+</pre>
 
-
-
-有时候为了充分利用多核,会同时开启多个node进程,但是若部分代码若涉及到操作mongodb就会有下面现象.“理想情况下”,多个进程执行完后得数据为:
-
-
+<p>有时候为了充分利用多核,会同时开启多个node进程,但是若部分代码若涉及到操作mongodb就会有下面现象.<br>“理想情况下”,多个进程执行完后得数据为:</p>
+<pre>
+<code class="javascript">
 {
-    &quot;name&quot; : &quot;cb&quot;,
-    &quot;data&quot; : 6000,
+    "name" : "cb",
+    "data" : 6000,
 }
+</code>
+</pre>
 
-
-
-其实不然 !
-    &hellip;
+<p>其实不然 !<br>
       </p>
-      <div class="post-list__meta"><time datetime="2014-12-21T12:47:06.000Z" class="post-list__meta--date date">12月21 2014</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
-  <a class="-link" href="">MongoDB</a>, <a class="-link" href="../Node-js">Node.js</a>, <a class="-link" href="../原子性">原子性</a>
-</span><a class="btn-border-small" href="/2014/12/howto-nodejs-atom-op-mongodb/">继续阅读</a></div>
+      <div class="post-list__meta">
+		<a class="btn-border-small" href="/2014/12/howto-nodejs-atom-op-mongodb/">阅读全文</a>
+        <span class="post-list__meta--tags tags">
+		 
+			  <a class="category-link" href="/categories/tech" style="">技术</a>
+		  
+
+		 
+          	
+            <a class="tags-link" href="">MongoDB</a>, <a class="tags-link" href="../Node-js">Node.js</a>, <a class="tags-link" href="../原子性">原子性</a>
+          	
+		  
+        </span>
+      </div>
       <hr class="post-list__divider" />
     </li>
-  
     
     <li>
-      <h2 class="post-list__post-title post-title"><a href="/2012/07/mongodb-basic-indexes-compound-indexes/" title="link to post.title">MONGODB的BASIC INDEXES 和 COMPOUND INDEXES 研究</a></h2>
+      <h2 class="post-list__post-title post-title"><a href="/2012/07/mongodb-basic-indexes-compound-indexes/" title="link to MONGODB的BASIC INDEXES 和 COMPOUND INDEXES 研究">MONGODB的BASIC INDEXES 和 COMPOUND INDEXES 研究</a></h2>
+        <time datetime="7月12 2012" class="post-list__meta--date date">7月12 2012</time>
       <p class="excerpt">
-    
-      前几天看到一个关于 MongoDB 深入索引的PPT
-MongoDB Indexing: The Details
-仔细的从头看到尾, 里面有个关于Compound Indexes的Range and Equality的讲解,在ppt第129页,重新回顾下这个例子.向一个collection中插入 9 条数据,像下面这样:
+        <p>前几天看到一个关于 MongoDB 深入索引的PPT</p>
+<p><a href="http://www.slideshare.net/mongodb/mongodb-indexing-the-details" target="_blank" rel="external">MongoDB Indexing: The Details</a></p>
+<p>仔细的从头看到尾, 里面有个关于Compound Indexes的Range and Equality的讲解,在ppt第129页,重新回顾下这个例子.向一个collection中插入 9 条数据,像下面这样:</p>
+<pre>
+<code class="javascript">
+> db.good.find()
+{ "_id" : ObjectId("4e8d629d8ad8bdf2ed6c1990"), "x" : 1, "y" : "b" }
+{ "_id" : ObjectId("4e8d62a38ad8bdf2ed6c1991"), "x" : 3, "y" : "d" }
+{ "_id" : ObjectId("4e8d62ad8ad8bdf2ed6c1992"), "x" : 4, "y" : "g" }
+{ "_id" : ObjectId("4e8d62b28ad8bdf2ed6c1993"), "x" : 5, "y" : "c" }
+{ "_id" : ObjectId("4e8d62ba8ad8bdf2ed6c1994"), "x" : 6, "y" : "a" }
+{ "_id" : ObjectId("4e8d62c18ad8bdf2ed6c1995"), "x" : 7, "y" : "e" }
+{ "_id" : ObjectId("4e8d62ce8ad8bdf2ed6c1996"), "x" : 8, "y" : "c" }
+{ "_id" : ObjectId("4e8d62d38ad8bdf2ed6c1997"), "x" : 9, "y" : "f" }
+{ "_id" : ObjectId("4e8d719a6cee6416a5a75a43"), "x" : 5, "y" : "d" }
+</code>
+</pre>
 
-
-&gt; db.good.find()
-{ &quot;_id&quot; : ObjectId(&quot;4e8d629d8ad8bdf2ed6c1990&quot;), &quot;x&quot; : 1, &quot;y&quot; : &quot;b&quot; }
-{ &quot;_id&quot; : ObjectId(&quot;4e8d62a38ad8bdf2ed6c1991&quot;), &quot;x&quot; : 3, &quot;y&quot; : &quot;d&quot; }
-{ &quot;_id&quot; : ObjectId(&quot;4e8d62ad8ad8bdf2ed6c1992&quot;), &quot;x&quot; : 4, &quot;y&quot; : &quot;g&quot; }
-{ &quot;_id&quot; : ObjectId(&quot;4e8d62b28ad8bdf2ed6c1993&quot;), &quot;x&quot; : 5, &quot;y&quot; : &quot;c&quot; }
-{ &quot;_id&quot; : ObjectId(&quot;4e8d62ba8ad8bdf2ed6c1994&quot;), &quot;x&quot; : 6, &quot;y&quot; : &quot;a&quot; }
-{ &quot;_id&quot; : ObjectId(&quot;4e8d62c18ad8bdf2ed6c1995&quot;), &quot;x&quot; : 7, &quot;y&quot; : &quot;e&quot; }
-{ &quot;_id&quot; : ObjectId(&quot;4e8d62ce8ad8bdf2ed6c1996&quot;), &quot;x&quot; : 8, &quot;y&quot; : &quot;c&quot; }
-{ &quot;_id&quot; : ObjectId(&quot;4e8d62d38ad8bdf2ed6c1997&quot;), &quot;x&quot; : 9, &quot;y&quot; : &quot;f&quot; }
-{ &quot;_id&quot; : ObjectId(&quot;4e8d719a6cee6416a5a75a43&quot;), &quot;x&quot; : 5, &quot;y&quot; : &quot;d&quot; }
-
-
-
-    &hellip;
       </p>
-      <div class="post-list__meta"><time datetime="2012-07-11T17:18:41.000Z" class="post-list__meta--date date">7月12 2012</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
-  <a class="-link" href="">MongoDB</a>, <a class="-link" href="../索引">索引</a>
-</span><a class="btn-border-small" href="/2012/07/mongodb-basic-indexes-compound-indexes/">继续阅读</a></div>
+      <div class="post-list__meta">
+		<a class="btn-border-small" href="/2012/07/mongodb-basic-indexes-compound-indexes/">阅读全文</a>
+        <span class="post-list__meta--tags tags">
+		 
+			  <a class="category-link" href="/categories/tech" style="">技术</a>
+		  
+
+		 
+          	
+            <a class="tags-link" href="">MongoDB</a>, <a class="tags-link" href="../索引">索引</a>
+          	
+		  
+        </span>
+      </div>
       <hr class="post-list__divider" />
     </li>
-  
     
   </ol>
+  <hr class="post-list__divider " />
 
-
- <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
-        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
-        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
-        messageStyle: "none"
-    }); 
+<nav class="pagination" role="navigation">
     
-</script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+
+    <span class="pagination__page-number">Page 1 of 1</span>
+    
+    
+</nav>
+
 </div>
 
 
-            <footer class="footer">
+        <footer class="footer">
     <span class="footer__copyright">
-        本站点采用 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
+        &copy; 2017 - Vimer.Me
     </span>
-    <span class="footer__copyright">
-        基于 <a href="http://hexo.io">Hexo</a> 搭建，感谢 <a href="https://pages.github.com/">GitHub Pages</a> 提供免费的托管服务
-    </span>
-    <span class="footer__copyright">
-        &copy; 2017 - 本站使用 <a href="https://github.com/monniya/hexo-theme-new-vno ">new-vno</a> 主题,
-        由<a href="https://monniya.com ">@Monniya</a> 修改自 <a href="https://github.com/lenbo-ma/hexo-theme-vno" target="_blank">Vno</a>, 原创出自<a href="http://github.com/onevcat/vno" target="_blank">onevcat</a>
-    </span>
-    
 </footer>
-
 
         </div>
     </div>
+	<script src="../../js/jquery.min.js" type="text/javascript"></script>
 
+	<script src="../../js/main.js" type="text/javascript"></script>
+
+	<script src="../../js/highlight.min.js" type="text/javascript"></script>
+
+	<script>hljs.initHighlightingOnLoad();</script>
      
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -281,25 +289,29 @@ MongoDB Indexing: The Details
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	ga('create', 'UA-78918255-1', 'auto');
+	ga('create', 'UA-70385904-1', 'auto');
 	ga('send', 'pageview');
 </script>
 
-    
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "//hm.baidu.com/hm.js?9cdad07c755fa23f6aced510c6760e87";
-            var s = document.getElementsByTagName("script")[0]; 
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
 
-
-
-    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    
-    
 </body>
 </html>
+<script type="text/javascript">
+
+function isPC() {
+	var userAgentInfo = navigator.userAgent;
+	console.log(userAgentInfo)
+	var Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"];
+	var flag = true;
+	for (var v = 0; v < Agents.length; v++) {
+		if (userAgentInfo.indexOf(Agents[v]) > 0) {
+			flag = false;
+			break;
+		}
+	}
+	return flag;
+}
+/*if (!isPC()) {
+	document.title = "";
+}*/
+</script>
