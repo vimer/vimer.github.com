@@ -4,7 +4,7 @@
   <subtitle><![CDATA[基础·极致·分享]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://vimer.me/"/>
-  <updated>2017-07-27T10:55:36.276Z</updated>
+  <updated>2017-07-27T11:02:10.395Z</updated>
   <id>http://vimer.me/</id>
   
   <author>
@@ -186,7 +186,7 @@
     
       <category term="读书笔记" scheme="http://vimer.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
     
   </entry>
   
@@ -214,7 +214,7 @@
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
     
   </entry>
   
@@ -248,7 +248,7 @@
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
     
   </entry>
   
@@ -312,7 +312,7 @@
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
     
   </entry>
   
@@ -351,7 +351,7 @@
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
     
   </entry>
   
@@ -425,7 +425,7 @@ int main()
     
       <category term="性能" scheme="http://vimer.me/tags/%E6%80%A7%E8%83%BD/"/>
     
-      <category term="tech" scheme="http://vimer.me/category/tech/"/>
+      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
     
   </entry>
   
@@ -458,7 +458,7 @@ int main()
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
     
   </entry>
   
@@ -490,7 +490,7 @@ int main()
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
     
   </entry>
   
@@ -557,7 +557,7 @@ int main()
     
     </summary>
     
-      <category term="venture-road" scheme="http://vimer.me/category/venture-road/"/>
+      <category term="venture-road" scheme="http://vimer.me/categories/venture-road/"/>
     
   </entry>
   
@@ -680,7 +680,7 @@ var reduce = function(key, values) {
     
       <category term="MongoDB" scheme="http://vimer.me/tags/MongoDB/"/>
     
-      <category term="tech" scheme="http://vimer.me/category/tech/"/>
+      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
     
   </entry>
   
@@ -767,7 +767,7 @@ for (var i=0; i< 100; i++) {
     
       <category term="异常" scheme="http://vimer.me/tags/%E5%BC%82%E5%B8%B8/"/>
     
-      <category term="tech" scheme="http://vimer.me/category/tech/"/>
+      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
     
   </entry>
   
@@ -907,7 +907,7 @@ setTimeout(function () {
     
       <category term="cpu密集型计算" scheme="http://vimer.me/tags/cpu%E5%AF%86%E9%9B%86%E5%9E%8B%E8%AE%A1%E7%AE%97/"/>
     
-      <category term="tech" scheme="http://vimer.me/category/tech/"/>
+      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
     
   </entry>
   
@@ -965,7 +965,7 @@ nohup tail -f 2 &
     
       <category term="SIGHUP" scheme="http://vimer.me/tags/SIGHUP/"/>
     
-      <category term="tech" scheme="http://vimer.me/category/tech/"/>
+      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
     
   </entry>
   
@@ -974,7 +974,7 @@ nohup tail -f 2 &
     <link href="http://vimer.me/2014/12/howto-nodejs-atom-op-mongodb/"/>
     <id>http://vimer.me/2014/12/howto-nodejs-atom-op-mongodb/</id>
     <published>2014-12-21T12:47:06.000Z</published>
-    <updated>2016-12-26T12:57:08.000Z</updated>
+    <updated>2017-07-27T11:01:57.000Z</updated>
     <content type="html"><![CDATA[<p>假设基础数据为:</p>
 <pre>
 <code class="javascript">
@@ -1065,7 +1065,7 @@ co(function* () {
     
       <category term="原子性" scheme="http://vimer.me/tags/%E5%8E%9F%E5%AD%90%E6%80%A7/"/>
     
-      <category term="tech" scheme="http://vimer.me/category/tech/"/>
+      <category term="技术" scheme="http://vimer.me/categories/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -1074,7 +1074,7 @@ co(function* () {
     <link href="http://vimer.me/2012/07/c-string-question/"/>
     <id>http://vimer.me/2012/07/c-string-question/</id>
     <published>2012-07-19T14:27:45.000Z</published>
-    <updated>2017-07-27T10:40:57.000Z</updated>
+    <updated>2017-07-27T11:02:06.000Z</updated>
     <content type="html"><![CDATA[<p>一个同事在Project中写下如下错误代码(为了说明问题, 代码已经简写)</p>
 <pre>
 <code class="C">
@@ -1178,6 +1178,8 @@ void function(const char* _str) {
       <category term="C" scheme="http://vimer.me/tags/C/"/>
     
       <category term="字符串" scheme="http://vimer.me/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+      <category term="技术" scheme="http://vimer.me/categories/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -1316,7 +1318,7 @@ db.good.ensureIndex({y:1})
     
       <category term="索引" scheme="http://vimer.me/tags/%E7%B4%A2%E5%BC%95/"/>
     
-      <category term="tech" scheme="http://vimer.me/category/tech/"/>
+      <category term="tech" scheme="http://vimer.me/categories/tech/"/>
     
   </entry>
   
