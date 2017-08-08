@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://vimer.me/excellent-blogs/index.html</loc>
-    <lastmod>2017-08-03T14:58:18.000Z</lastmod>
+    <loc>http://vimer.me/2017/08/mysql-transaction-deadlock/</loc>
+    <lastmod>2017-08-08T15:09:49.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://vimer.me/about/index.html</loc>
-    <lastmod>2017-08-01T06:11:38.000Z</lastmod>
+    <loc>http://vimer.me/2015/05/dynamic-branch-prediction/</loc>
+    <lastmod>2017-08-07T10:41:54.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vimer.me/2015/01/mongodb-map-reduce-increase-speed/</loc>
+    <lastmod>2017-08-05T16:27:12.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vimer.me/2014/12/nodejs-cpu-cal/</loc>
+    <lastmod>2017-08-05T15:45:55.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vimer.me/excellent-blogs/index.html</loc>
+    <lastmod>2017-08-03T14:58:18.000Z</lastmod>
   </url>
   
   <url>
@@ -67,16 +82,6 @@
   </url>
   
   <url>
-    <loc>http://vimer.me/2014/12/nodejs-cpu-cal/</loc>
-    <lastmod>2017-07-27T11:06:15.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://vimer.me/2015/01/mongodb-map-reduce-increase-speed/</loc>
-    <lastmod>2017-07-27T11:06:05.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://vimer.me/2012/07/mongodb-basic-indexes-compound-indexes/</loc>
     <lastmod>2017-07-27T11:05:46.000Z</lastmod>
   </url>
@@ -87,22 +92,17 @@
   </url>
   
   <url>
-    <loc>http://vimer.me/2015/05/dynamic-branch-prediction/</loc>
-    <lastmod>2017-07-27T11:05:30.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://vimer.me/2012/07/c-string-question/</loc>
     <lastmod>2017-07-27T11:05:21.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://vimer.me/404.html</loc>
+    <loc>http://vimer.me/geeks/index.html</loc>
     <lastmod>2016-12-26T12:57:08.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://vimer.me/geeks/index.html</loc>
+    <loc>http://vimer.me/404.html</loc>
     <lastmod>2016-12-26T12:57:08.000Z</lastmod>
   </url>
   

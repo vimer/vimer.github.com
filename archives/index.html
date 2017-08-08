@@ -74,9 +74,9 @@
             <ul class="navigation">
              <!-- <li class="navigation__item"><a href="/#blog" title="访问博客" class="blog-button">博客</a></li> -->
             
-              <li class="navigation__item"><a href="/categories/技术">技术栈</a></li>
+              <li class="navigation__item"><a href="/categories/技术/">技术栈</a></li>
             
-              <li class="navigation__item"><a href="/categories/创业路">创业路</a></li>
+              <li class="navigation__item"><a href="/categories/创业路/">创业路</a></li>
             
             </ul>
           </nav>
@@ -147,6 +147,34 @@
 
 <div class="main-post-list">
     <ol class="post-list">
+    
+    <li>
+      <h2 class="post-list__post-title post-title"><a href="/2017/08/mysql-transaction-deadlock/" title="link to MySql InnoDB事务死锁问题">MySql InnoDB事务死锁问题</a></h2>
+        <time datetime="8月5 2017" class="post-list__meta--date date">8月5 2017</time>
+      <p class="excerpt">
+        <p>这篇博客的文章内容发生于某天晚上服务端日志报了一大堆 Deadlock found when trying to get lock; try restarting transaction，当时通过字面意思果断可以判断出是Sql事务死锁了，与此同时，MySql所在服务器CPU也远超100%，第一直觉是事务死锁导致线程阻塞，请求数瞬间过多导致CPU超100%。</p>
+<p>什么情况下会导致死锁呢？根据以往经验，应该是同时操作了（update/delete等）同一条数据库的记录导致了事务阻塞，由于事务的执行时间过长导致了其他事务的等待，导致CPU攀高。</p>
+<p>死锁这个问题基本上可以说涉及了InnoDB大部分特性：行锁设计，非锁定读，事务，MVCC，聚簇索引 等等，有必要写篇文章好好分析下。</p>
+
+      </p>
+      <div class="post-list__meta">
+		<a class="btn-border-small" href="/2017/08/mysql-transaction-deadlock/">阅读全文</a>
+        <span class="post-list__meta--tags tags">
+		 <!-- 
+            <a class="categories-link" href="../categories/技术">技术</a>
+          
+			  -->
+			<!-- <a class="category-link" href="/categories/[object Object]" style="">[object Object]</a> -->
+
+		 
+          	
+            <a class="tags-link" href="../tags/InnoDB">InnoDB</a>, <a class="tags-link" href="../tags/Mysql">Mysql</a>, <a class="tags-link" href="../tags/死锁">死锁</a>
+          	
+		  
+        </span>
+      </div>
+      <hr class="post-list__divider" />
+    </li>
     
     <li>
       <h2 class="post-list__post-title post-title"><a href="/2016/02/startup-9-2015-this-year/" title="link to 创业路「九」：2015，这一年">创业路「九」：2015，这一年</a></h2>
@@ -324,9 +352,7 @@
       <h2 class="post-list__post-title post-title"><a href="/2015/05/dynamic-branch-prediction/" title="link to 动态分支预测">动态分支预测</a></h2>
         <time datetime="5月10 2015" class="post-list__meta--date date">5月10 2015</time>
       <p class="excerpt">
-        <p>说起这个话题也挺有意思，上周五我在公司技术分享的时候，在最末提到一个问题: </p>
-<p>为什么排序过的数据在遍历的时候速度更快 ?</p>
-<p>这里我拿出很久之前在Stack Overflow上火车在行驶的过程中的例子</p>
+        <p>说起这个话题也挺有意思，上周五我在公司技术分享的时候，在最末提到一个问题:<br>为什么排序过的数据在遍历的时候速度更快 ?<br>这里我拿出很久之前在Stack Overflow上火车在行驶的过程中的例子</p>
 
       </p>
       <div class="post-list__meta">
@@ -426,8 +452,8 @@
       <h2 class="post-list__post-title post-title"><a href="/2015/01/mongodb-map-reduce-increase-speed/" title="link to MongoDB Map-Reduce 原理及提速">MongoDB Map-Reduce 原理及提速</a></h2>
         <time datetime="1月18 2015" class="post-list__meta--date date">1月18 2015</time>
       <p class="excerpt">
-        <p>想要优化Map-reduce就要深入理解其原理.</p>
-<p>Map-Reduce基本原理请见下图:</p>
+        <p>想要优化Map-reduce就要深入理解其原理.<br>Map-Reduce基本原理请见下图:</p>
+<p><img src="http://okf337562.bkt.clouddn.com/map-reduce.jpg" alt="Map-Reduce基本原理"></p>
 
       </p>
       <div class="post-list__meta">
@@ -702,7 +728,6 @@ void function(const char* _str) {
 
 	<script src="http://okf337562.bkt.clouddn.com/highlight.min.js" type="text/javascript"></script>
 
-	<script>hljs.initHighlightingOnLoad();</script>
      
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -732,6 +757,12 @@ function isPC() {
 	}
 	return flag;
 }
+
+ $(document).ready(function() {
+  $('pre code').each(function(i, block) {
+    hljs.highlightBlock(block);
+  });
+});
 /*if (!isPC()) {
 	document.title = "";
 }*/
