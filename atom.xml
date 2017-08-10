@@ -4,7 +4,7 @@
   <subtitle><![CDATA[基础·极致·分享]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://vimer.me/"/>
-  <updated>2017-08-09T14:53:32.031Z</updated>
+  <updated>2017-08-10T14:31:27.187Z</updated>
   <id>http://vimer.me/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://vimer.me/2017/08/mysql-transaction-deadlock/"/>
     <id>http://vimer.me/2017/08/mysql-transaction-deadlock/</id>
     <published>2017-08-05T15:30:36.000Z</published>
-    <updated>2017-08-09T14:49:58.000Z</updated>
+    <updated>2017-08-10T14:30:49.000Z</updated>
     <content type="html"><![CDATA[<p>这篇博客的文章内容发生于某天晚上服务端日志报了一大堆 Deadlock found when trying to get lock; try restarting transaction，当时通过字面意思果断可以判断出是Sql事务死锁了，与此同时，MySql所在服务器CPU也远超100%，第一直觉是事务死锁导致线程阻塞，请求数瞬间过多导致CPU超100%。<br><img style="float:right" src="http://okf337562.bkt.clouddn.com/figure/deadlock.jpg" width="50%" height="50%"><br>什么情况下会导致死锁呢？根据以往经验，应该是同时操作了（update/delete等）同一条数据库的记录导致了事务阻塞，由于事务的执行时间过长导致了其他事务的等待，导致CPU攀高。</p>
 <p>死锁这个问题基本上可以说涉及了InnoDB大部分特性：行锁设计，非锁定读，事务，MVCC，聚簇索引 等等，有必要写篇文章好好分析下。</p>
 <a id="more"></a>
@@ -303,11 +303,15 @@ select * from tDeadLock where id = 2 for update;
 
 </p></li>
 </ul>
-<p>其中 trx_mysql_thread_id 这个id，如果特殊情况，可以直接kill掉。通过这三个表的使用可以达到解锁。</p>
+<p>其中 trx_mysql_thread_id 这个id，如果特殊情况，可以根据show full processlist命令查询出来进程id来kill掉，具体表的使用可以参考之前的例子来看下各个表的数据。</p>
 <p>
 
-<t>总结</t>
-</p>]]></content>
+</p><p><t>总结</t><br>当了解死锁背后一些原理后，处理起死锁问题就有迹可循了。</p>
+<ul>
+<li>写程序的时候可以尽量避免事务的过长（处理时间）</li>
+<li>写事务的时候避免相互竞争资源的情况</li>
+</ul>
+]]></content>
     <summary type="html">
     <![CDATA[<p>这篇博客的文章内容发生于某天晚上服务端日志报了一大堆 Deadlock found when trying to get lock; try restarting transaction，当时通过字面意思果断可以判断出是Sql事务死锁了，与此同时，MySql所在服务器CPU也远超100%，第一直觉是事务死锁导致线程阻塞，请求数瞬间过多导致CPU超100%。<br><img style="float:right" src="http://okf337562.bkt.clouddn.com/figure/deadlock.jpg" width="50%" height="50%"><br>什么情况下会导致死锁呢？根据以往经验，应该是同时操作了（update/delete等）同一条数据库的记录导致了事务阻塞，由于事务的执行时间过长导致了其他事务的等待，导致CPU攀高。</p>
 <p>死锁这个问题基本上可以说涉及了InnoDB大部分特性：行锁设计，非锁定读，事务，MVCC，聚簇索引 等等，有必要写篇文章好好分析下。</p>
