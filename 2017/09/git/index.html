@@ -26,11 +26,11 @@
     
     <meta name="author" content="vimer.me">
     
-    <link rel="stylesheet" href="../../css/hvno.css" type="text/css">
+    <link rel="stylesheet" href="../../../css/hvno.css" type="text/css">
 
-    <link rel="stylesheet" href="../../css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../../../css/font-awesome.min.css" type="text/css">
 
-    <link rel="stylesheet" href="../../css/atelier-forest.light.min.css" type="text/css">
+    <link rel="stylesheet" href="../../../css/atelier-forest.light.min.css" type="text/css">
 
 	<!--<link href="//cdn.bootcss.com/highlight.js/8.9.0/styles/magula.min.css" rel="stylesheet">-->
 	<!--<link href="//cdn.bootcss.com/highlight.js/8.8.0/styles/idea.min.css" rel="stylesheet">-->
@@ -45,7 +45,7 @@
     <link rel="alternate" type="application/rss+xml" title="Vimer.Me" href="/atom.xml">
     
 
-    <link rel="canonical" href="http://vimer.me"/>
+    <link rel="canonical" href="http://vimer.me/2017/09/git/"/>
 
     
 </head>
@@ -140,54 +140,40 @@
 
     <div class="content-wrapper">
         <div class="content-wrapper__inner">
-		
+		<article class="post-container post-container--single">
 
-
-  <h1 class="archive-title">Mysql</h1>
-  <hr class="post-list__divider" />
-
-<div class="main-post-list">
-    <ol class="post-list">
+  <header class="post-header">
+    <div class="post-meta">
+    <!-- <h1 class="post-title post-list__post-title"></h1> -->
+    <h1 style="font-size:2em; line-height:1.8em; margin-top:0; margin-bottom:.2em;"></h1>
+      <time datetime="2017-09-20T07:15:19.000Z" class="post-list__meta--date date">9月20 2017</time>
+	</div>
+  </header>
+  <section class="post">
     
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2017/08/mysql-transaction-deadlock/" title="link to MySql InnoDB事务死锁问题">MySql InnoDB事务死锁问题</a></h2>
-        <time datetime="8月5 2017" class="post-list__meta--date date">8月5 2017</time>
-      <p class="excerpt">
-        <p>这篇博客的文章内容发生于某天晚上服务端日志报了一大堆 Deadlock found when trying to get lock; try restarting transaction，当时通过字面意思果断可以判断出是Sql事务死锁了，与此同时，MySql所在服务器CPU也远超100%，第一直觉是事务死锁导致线程阻塞，请求数瞬间过多导致CPU超100%。<br><img style="float:right" src="http://okf337562.bkt.clouddn.com/figure/deadlock.jpg" width="50%" height="50%"><br>什么情况下会导致死锁呢？根据以往经验，应该是同时操作了（update/delete等）同一条数据库的记录导致了事务阻塞，由于事务的执行时间过长导致了其他事务的等待，导致CPU攀高。</p>
-<p>死锁这个问题基本上可以说涉及了InnoDB大部分特性：行锁设计，非锁定读，事务，MVCC，聚簇索引 等等，有必要写篇文章好好分析下。</p>
+  </section>
+  <br>
+  <center><font color="#a44a54" size="2px">(转载文章请注明原文出处 <a href='' style="font-color:#496b98" target="_blank" rel="external">Vimer.Me)</a></font></center>
+  <br>
+</article>
+<span class="post-meta__tags tags">&nbsp;</span>
+<span class="post-meta__tags tags">
+</span>
 
-      </p>
-      <div class="post-list__meta">
-		<a class="btn-border-small" href="/2017/08/mysql-transaction-deadlock/">阅读全文</a>
-        <span class="post-list__meta--tags tags">
-		 <!-- 
-            <a class="categories-link" href="../../categories/技术">技术</a>
-          
-			  -->
-			<!-- <a class="category-link" href="/categories/[object Object]" style="">[object Object]</a> -->
+<section class="post-comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = 'vimer';       
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
 
-		 
-          	
-            <a class="tags-link" href="../InnoDB">InnoDB</a>, <a class="tags-link" href="">Mysql</a>, <a class="tags-link" href="../死锁">死锁</a>
-          	
-		  
-        </span>
-      </div>
-      <hr class="post-list__divider" />
-    </li>
-    
-  </ol>
-  <hr class="post-list__divider " />
-
-<nav class="pagination" role="navigation">
-    
-
-    <span class="pagination__page-number">Page 1 of 1</span>
-    
-    
-</nav>
-
-</div>
 
 
         <footer class="footer">
