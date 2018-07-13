@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+    
   <url>
     <loc>http://emacs.cn/2017/09/git/</loc>
     <lastmod>2017-09-20T07:15:19.000Z</lastmod>
@@ -97,7 +98,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://emacs.cn/2016/02/startup-9-2015-this-year/</loc>
